@@ -1,0 +1,6 @@
+PASS raycast MemoryToggle
+PASS raycast SelectMemoryA
+PASS raycast CloseMemory
+深く知る / PythonAPI topic / 旅先のスケッチ、いいですね。特に、星空の帰り道に思い入れがあるって、どんな気持ちからですか？共有できる時間が作れたら嬉しいです。
+自分も伝える / PythonAPI topic / 最近、旅先のスケッチを描く楽しみが増えてきたんだ。私も星空の帰り道をテーマにしたいと思ってる。一緒にどんな場所を描くのが好き？
+一緒の未来 / PythonAPI topic / 旅先のスケッチを一緒に描いてみない？星空の帰り道の情景を共有して、どんな風に表現できるか、お互いの希望も聞かせてほしい。

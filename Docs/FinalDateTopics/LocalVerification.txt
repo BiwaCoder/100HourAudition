@@ -1,0 +1,9 @@
+Japanese turn=0 「静かなカフェ」から考えたんだけど、あなたの本当の気持ちが知りたい。私を恋人として考えてくれる？
+Japanese turn=1 「静かなカフェ」から考えたんだけど、番組のあとも、あなたと一緒にいたい。ふたりでどんな毎日を築きたい？
+Japanese turn=2 「静かなカフェ」から考えたんだけど、つらい日も一緒に乗り越えたい。ふたりで守りたい大切な約束は何？
+Japanese turn=3 「静かなカフェ」から考えたんだけど、これからの人生を、あなたと歩みたい。私と結婚してくれますか？
+English turn=0 Thinking of a quiet cafe, I want to know your true feelings. Could you see me as your partner?
+English turn=1 Thinking of a quiet cafe, I want a future with you after the show. What life would you want us to build?
+English turn=2 Thinking of a quiet cafe, I want us to face the hard days together too. What promise would matter most to you?
+English turn=3 Thinking of a quiet cafe, I want to share my life with you. Will you marry me?
+PASS: both locales, early chapter isolation, 4 final-date beats, Focus cost and explicit proposal

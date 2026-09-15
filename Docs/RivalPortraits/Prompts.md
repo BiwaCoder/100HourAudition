@@ -1,0 +1,10 @@
+# キャラクター画像（内蔵imagegen使用）
+
+## ののか・生成
+Create a vertical 2:3 photorealistic character portrait for a game. A fictional Japanese adult woman Nonoka Amamiya, age 25, with long chestnut curled hair and a friendly smile. She wears a modest formal dusty-rose dress, high round neckline, fully covered shoulders and long sleeves, opaque fabric, delicate earrings. A sunlit seaside villa terrace with ocean and palm trees softly blurred behind her. Polished natural editorial portrait photography, realistic human proportions and skin, warm golden-hour light, coordinated with a romantic seaside game cast. Framed from head to waist, head fully included, hands relaxed. Fully clothed. No illustration, no anime, no doll appearance, no text or watermark.
+
+## ののか・最新指定のボブへ変更
+Edit this fictional adult woman's game portrait. Change only her hairstyle from long curled hair to a neat CHIN-LENGTH BOB CUT, softly rounded ends and light wispy bangs. Hair must end at her jawline, with no long locks on her shoulders or chest. Preserve her face, friendly expression, modest high-neck long-sleeved dusty-rose dress, fully clothed appearance, pose, seaside terrace background, golden-hour lighting and photorealistic style. Keep vertical 2:3 composition. No text or watermark.
+
+## 白石杏奈
+Create a single vertical 2:3 photorealistic character portrait for a romantic seaside game, matching polished natural editorial portrait photography. Fictional Japanese adult woman Anna Shiraishi, age 26, intelligent calm expression with a subtle warm smile, dark brown shoulder-length gently wavy hair, distinct mature face. She wears a simple elegant WHITE one-piece summer dress with a modest round neckline, covered shoulders and elbow-length sleeves, opaque cotton fabric, small silver earrings. Fully clothed. Standing naturally on a luxurious seaside villa terrace at golden hour, ocean, pale columns and soft greenery in background. Realistic skin and human proportions, soft luminous sunlight, fine fabric detail. Head-to-hips portrait, centered, top of head fully visible, face clear for a small game portrait. No cartoon, no illustration, no anime, no red curtains, no text, logo or watermark.

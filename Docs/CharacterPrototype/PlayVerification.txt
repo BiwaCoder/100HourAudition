@@ -1,0 +1,16 @@
+Intro to Walking: True
+Button raycast 0: True
+Portrait Cube: True
+Mode Cube: True
+Button raycast 1: True
+Portrait Silhouette: True
+Mode Silhouette: True
+Button raycast 2: True
+Portrait Wire: True
+Mode Wire: True
+Button raycast 3: True
+Portrait SilhouetteAndWire: True
+Mode SilhouetteAndWire: True
+Joystick movement: True
+Leg animation: True
+Stops: True

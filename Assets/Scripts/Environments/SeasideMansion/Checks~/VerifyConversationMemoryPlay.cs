@@ -1,0 +1,41 @@
+var d=UnityEngine.Object.FindFirstObjectByType<HundredHour.Environments.MansionSignalDirector>();
+var journal=d.GetComponent<HundredHour.Environments.MansionMemoryJournal>();
+var report=new System.Collections.Generic.List<string>();
+void Check(bool ok,string label){if(!ok)throw new Exception(label);report.Add("PASS "+label);System.IO.File.WriteAllLines("Docs/ConversationMemory/play-verification.txt",report);}
+System.Collections.IEnumerator Run(){
+ Check(journal.IsOpen,"upper memory window opens");
+ int turn=d.Game.State.turn;d.Choose(0);Check(d.Game.State.turn==turn,"memory window blocks conversation keyboard confirmation");
+ var buttons=journal.GetComponentsInChildren<UnityEngine.UI.Button>();
+ var a=d.view.stage.GetComponentsInChildren<UnityEngine.UI.Button>().First(b=>b.name=="SelectMemoryA");a.onClick.Invoke();
+ Check(!string.IsNullOrEmpty(d.Game.State.recallA),"memory A button selects saved exchange");
+ journal.Close();yield return new WaitForSecondsRealtime(.45f);d.UseTool(0);yield return new WaitForSecondsRealtime(.45f);
+ Check(d.view.toolLabels[0].text=="深く知る","purpose menu opens");
+ int agi=d.Game.State.agi;d.UseTool(0);yield return new WaitForSecondsRealtime(.45f);
+ Check(d.Game.State.agi==agi-1&&d.Game.State.actions[0].id=="ai_topic","topic spends once and adds spoken option");
+ Check(d.Game.State.turn==turn,"generating topic does not advance conversation");
+ Check(d.view.tools.Count(b=>b.gameObject.activeSelf)==2,"only two AI tools visible");
+ d.view.choices.SelectAndConfirm(0);yield return new WaitForSecondsRealtime(.45f);
+ Check(d.Game.SharedMemories().Count==2&&d.Game.State.understanding==5,"speaking selected AI topic creates memory synergy");
+ journal.Open();yield return new WaitForSecondsRealtime(.45f);
+ d.view.stage.GetComponentsInChildren<UnityEngine.UI.Button>().First(b=>b.name=="SelectMemoryA").onClick.Invoke();
+ d.view.stage.GetComponentsInChildren<UnityEngine.UI.Button>().First(b=>b.name=="PreviousMemory").onClick.Invoke();
+ d.view.stage.GetComponentsInChildren<UnityEngine.UI.Button>().First(b=>b.name=="SelectMemoryB").onClick.Invoke();
+ Check(!string.IsNullOrEmpty(d.Game.State.recallB)&&d.Game.State.recallA!=d.Game.State.recallB,"second memory selected through UI");
+ journal.Close();yield return new WaitForSecondsRealtime(.45f);
+ d.useAI=true;d.UseTool(0);yield return new WaitForSecondsRealtime(.45f);d.UseTool(2);
+ float deadline=Time.realtimeSinceStartup+75;while(d.Busy&&Time.realtimeSinceStartup<deadline)yield return new WaitForSecondsRealtime(.45f);
+ Check(!d.Busy,"real topic request finishes");report.Add("Topic source: "+d.LastDialogueSource);report.Add("Topic line: "+d.Game.State.actions[0].line);
+ Check(d.Game.MemoryBonus(d.Game.State.actions[0])==7,"generated pair topic has visible synergy");
+ yield return new WaitForSecondsRealtime(.45f);d.view.choices.SelectAndConfirm(0);yield return new WaitForSecondsRealtime(.45f);
+ deadline=Time.realtimeSinceStartup+75;while(d.Busy&&Time.realtimeSinceStartup<deadline)yield return new WaitForSecondsRealtime(.45f);
+ Check(!d.Busy&&d.Game.SharedMemories().Count==3,"real reply resolves and is saved");report.Add("Reply source: "+d.LastDialogueSource);report.Add("Reply: "+d.Game.State.lastNpc);
+ yield return new WaitForSecondsRealtime(.45f);d.UseTool(1);
+ deadline=Time.realtimeSinceStartup+45;while(d.Busy&&Time.realtimeSinceStartup<deadline)yield return new WaitForSecondsRealtime(.45f);
+ Check(!d.Busy&&d.Game.State.perspective,"feelings assistance available without restoring other tools");report.Add("Feelings source: "+d.LastDialogueSource);report.Add("Feelings: "+d.Game.State.notice);
+ d.testSavePath=System.IO.Path.GetFullPath("Temp/ConversationMemoryCheck.json");d.saveEnabled=true;d.RecallChanged();int understanding=d.Game.State.understanding;d.Resume();d.saveEnabled=false;
+ Check(d.Game.SharedMemories().Count==3&&d.Game.State.understanding==understanding&&d.Game.State.phase==HundredHour.RealityShow.ShowPhase.Conversation,"director save/resume keeps conversation instead of archetype");
+ journal.Open();yield return new WaitForSecondsRealtime(.45f);
+ UnityEngine.ScreenCapture.CaptureScreenshot("Docs/ConversationMemory/03-shared-memories.png");
+ System.IO.File.WriteAllLines("Docs/ConversationMemory/play-verification.txt",report);
+}
+d.StartCoroutine(Run());return "Play verification coroutine running";

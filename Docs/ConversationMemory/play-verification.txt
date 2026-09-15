@@ -1,0 +1,20 @@
+PASS upper memory window opens
+PASS memory window blocks conversation keyboard confirmation
+PASS memory A button selects saved exchange
+PASS purpose menu opens
+PASS topic spends once and adds spoken option
+PASS generating topic does not advance conversation
+PASS only two AI tools visible
+PASS speaking selected AI topic creates memory synergy
+PASS second memory selected through UI
+PASS real topic request finishes
+Topic source: PythonAPI topic
+Topic line: 美術館の迷路を一緒に探検して、星空の帰り道のように心地よい時間を過ごせたらいいな。あなたはどんなことをしたい？
+PASS generated pair topic has visible synergy
+PASS real reply resolves and is saved
+Reply source: PythonAPI
+Reply: 美術館の迷路を一緒に探検するなんて楽しそうだね！私も、何か新しい発見があるかもしれないし、心地よい空間で色々と感じたいな。その後、どこかおしゃれなカフェでお茶でもするのもいいかもね。
+PASS feelings assistance available without restoring other tools
+Feelings source: PythonAPI feelings
+Feelings: 沙織（推測）：朝倉美月さんは、新しい発見をしたり心地よい空間を感じることを楽しみにしているかもしれません。『美術館の探検やお茶の時間について、私と一緒に過ごすことにワクワクしていますか？』と聞いてみましょう。
+PASS director save/resume keeps conversation instead of archetype

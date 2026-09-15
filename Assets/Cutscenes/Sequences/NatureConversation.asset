@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b8bcf65528a4e9f98790ec1606784a, type: 3}
+  m_Name: NatureConversation
+  m_EditorClassIdentifier: Assembly-CSharp::HundredHour.Cutscenes.CutsceneSequence
+  title: Nature / conversation coverage
+  instruction: "\u5168\u54E1\u3092\u6B63\u9762\u304B\u3089\u5F15\u304D\u3001A\u3068B\u3092\u6A2A\u306B\u4E8C\u4EBA\u3001A\u306E\u80A9\u8D8A\u3057\u306BB\u3001\u5207\u308A\u8FD4\u3057\u3001\u3086\u3063\u304F\u308A\u30BA\u30FC\u30E0\u30A4\u30F3\u3068\u30A2\u30A6\u30C8\u3001\u80CC\u5F8C\u304B\u3089\u5168\u4F53\u3092\u5F15\u3044\u3066\u6697\u8EE2\u3002"
+  fadeIn: 0.7
+  fadeOut: 0.7
+  shots:
+  - label: 01 Establishing / all three
+    kind: 5
+    actorA: A
+    actorB: B
+    duration: 3
+    transition: 0
+    transitionSeconds: 0.6
+    distance: 5
+    yaw: 0
+    elevation: 1.2
+    startFov: 40
+    endFov: 40
+    orbitDegrees: 60
+  - label: 02 Two side by side
+    kind: 1
+    actorA: A
+    actorB: B
+    duration: 3
+    transition: 1
+    transitionSeconds: 0.6
+    distance: 5
+    yaw: 0
+    elevation: 1.2
+    startFov: 40
+    endFov: 40
+    orbitDegrees: 60
+  - label: 03 Over A shoulder toward B
+    kind: 2
+    actorA: A
+    actorB: B
+    duration: 3
+    transition: 0
+    transitionSeconds: 0.6
+    distance: 5
+    yaw: 0
+    elevation: 1.2
+    startFov: 40
+    endFov: 40
+    orbitDegrees: 60
+  - label: 04 Reverse shoulder
+    kind: 3
+    actorA: A
+    actorB: B
+    duration: 3
+    transition: 0
+    transitionSeconds: 0.6
+    distance: 5
+    yaw: 0
+    elevation: 1.2
+    startFov: 40
+    endFov: 40
+    orbitDegrees: 60
+  - label: 05 Slow lens zoom in
+    kind: 0
+    actorA: A
+    actorB: B
+    duration: 5
+    transition: 2
+    transitionSeconds: 0.6
+    distance: 3
+    yaw: 0
+    elevation: 1.2
+    startFov: 40
+    endFov: 25
+    orbitDegrees: 60
+  - label: 06 Slow lens zoom out
+    kind: 0
+    actorA: A
+    actorB: B
+    duration: 5
+    transition: 0
+    transitionSeconds: 0.6
+    distance: 3
+    yaw: 0
+    elevation: 1.2
+    startFov: 25
+    endFov: 50
+    orbitDegrees: 60
+  - label: 07 Rear wide / fade home
+    kind: 4
+    actorA: A
+    actorB: B
+    duration: 4
+    transition: 2
+    transitionSeconds: 0.6
+    distance: 9
+    yaw: 0
+    elevation: 2
+    startFov: 40
+    endFov: 40
+    orbitDegrees: 60

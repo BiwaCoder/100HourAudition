@@ -1,0 +1,17 @@
+{
+  "style": "wire",
+  "file": "Himari-Wire.blend",
+  "height_m": 1.85,
+  "bones": 25,
+  "vertices": 885,
+  "triangles": 1500,
+  "wire_triangles": 1056,
+  "materials": [
+    "Himari - vertex palette"
+  ],
+  "actions": [
+    "Himari_Idle",
+    "Himari_WalkPreview"
+  ],
+  "vertex_palette": "Color"
+}

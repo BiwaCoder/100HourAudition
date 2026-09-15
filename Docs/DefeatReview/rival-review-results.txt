@@ -1,0 +1,36 @@
+PASS defeat reached
+PASS all rival exchanges captured
+PASS recorded deltas match konoa
+PASS varied dialogue konoa
+PASS recorded deltas match hikari
+PASS varied dialogue hikari
+PASS recorded deltas match shiori
+PASS varied dialogue shiori
+PASS score breakdown and tie explanation
+PASS review uses recorded reply
+PASS advanced reward
+PASS one reward per loss
+PASS restart
+PASS strong option available next loop
+PASS no repeated first use reward
+PASS second defeat unlocks scenery
+PASS save load review and lessons
+PASS legacy save does not fabricate conversations
+PASS defeat reached
+PASS all rival exchanges captured
+PASS recorded deltas match konoa
+PASS varied dialogue konoa
+PASS recorded deltas match hikari
+PASS varied dialogue hikari
+PASS recorded deltas match shiori
+PASS varied dialogue shiori
+PASS score breakdown and tie explanation
+PASS review uses recorded reply
+PASS advanced reward
+PASS one reward per loss
+PASS restart
+PASS strong option available next loop
+PASS no repeated first use reward
+PASS second defeat unlocks scenery
+PASS save load review and lessons
+PASS legacy save does not fabricate conversations

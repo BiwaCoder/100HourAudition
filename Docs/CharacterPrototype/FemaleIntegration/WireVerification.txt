@@ -1,0 +1,1 @@
+Wire temporal pixel change (frozen pose): True (31032 changed samples)

@@ -1,0 +1,18 @@
+PASS human action spends one Focus and no AI
+PASS human action deepens selected topic
+PASS repeat human action cannot charge twice
+PASS only advice shown: Japanese
+PASS remaining button is Saori advice
+PASS explanation fits above buttons
+PASS human action label localized
+PASS only advice shown: English
+PASS remaining button is Saori advice
+PASS explanation fits above buttons
+PASS human action label localized
+PASS AI requires selected memory
+PASS AI action charges AI once
+PASS busy AI cannot double charge
+PASS AI request completes
+SOURCE PythonAPI topic
+GENERATED It’s so relaxing to draw in a quiet cafe, how about we try sketching together sometime? It could be fun!
+PASS AI result retains selected memory association

@@ -1,0 +1,24 @@
+PASS first advice teaches True
+PASS repeat advice does not unlock all
+PASS new technique bonus
+PASS character-specific response
+PASS bonus consumed only by speaking
+PASS sense teaches next technique
+PASS both choices available
+PASS time leap
+PASS leap retains knowledge without duplicate first-use reward
+PASS save/load keeps techniques
+PASS all four unlock with conversation progress
+PASS final character topic
+PASS first advice teaches False
+PASS repeat advice does not unlock all
+PASS new technique bonus
+PASS character-specific response
+PASS bonus consumed only by speaking
+PASS sense teaches next technique
+PASS both choices available
+PASS time leap
+PASS leap retains knowledge without duplicate first-use reward
+PASS save/load keeps techniques
+PASS all four unlock with conversation progress
+PASS final character topic

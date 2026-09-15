@@ -1,0 +1,1 @@
+PASS: memory flow, synthesis, duplicate suppression, risky cards, weather, resource limits, loop caps, save/RNG continuity. 30 runs: 30 wins, 0 losses, 30 distinct outcomes.

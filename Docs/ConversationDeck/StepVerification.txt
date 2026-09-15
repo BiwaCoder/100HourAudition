@@ -1,0 +1,10 @@
+PASS AI only at start
+PASS named contextual inner voice
+PASS tutorial cannot bypass AI
+PASS forecast opens only cards
+PASS tutorial waits for card
+PASS card opens only dialogue choices
+PASS no second card after advancing
+PASS speech resolves then resets to AI
+PASS AI can be skipped without points
+PASS card can be skipped after tutorial

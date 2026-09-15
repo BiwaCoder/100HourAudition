@@ -1,0 +1,112 @@
+{
+  "success": true,
+  "character": {
+    "schema_version": "interview-character-v2",
+    "characters": [
+      {
+        "name": "森川蓮",
+        "jobs": "図書館の司書",
+        "personality": "ユーモアがあり好奇心旺盛",
+        "self_awareness": "静かな場面での自分を生かす",
+        "communication_style": [
+          "冗談っぽい"
+        ],
+        "fashion_sense": {
+          "style": "カジュアルで快適",
+          "preferences": "落ち着いた色合いと便利なポケット"
+        },
+        "conversation_points": [
+          "仕事",
+          "休日の過ごし方"
+        ],
+        "traits": [
+          "おおらか",
+          "知性的"
+        ],
+        "hobbies": [
+          "釣り"
+        ],
+        "emotional_expressions": [
+          "くすっと笑う",
+          "小さくうなずく"
+        ],
+        "example_lines": [
+          "ゲーム会社で働いてる、っていうのは冗談。実際は図書館の司書です。",
+          "名前や見た目は答えたくない。"
+        ],
+        "appearance": {
+          "hair": "くすんだ茶色のショートカット",
+          "eyes": "温かいブラウン",
+          "skin": "日焼けした肌",
+          "body": "柔らかな体型"
+        }
+      }
+    ],
+    "profile_quality": {
+      "evidence": [
+        {
+          "field": "jobs",
+          "basis": "stated",
+          "quote": "実際は図書館の司書です。",
+          "explanation": "ユーザーが図書館の司書として働いていると述べたため。"
+        },
+        {
+          "field": "communication_style",
+          "basis": "observed",
+          "quote": "ゲーム会社で働いてる、っていうのは冗談。",
+          "explanation": "ユーザーは冗談を交えて自身の職業について話しているため。"
+        },
+        {
+          "field": "conversation_points",
+          "basis": "observed",
+          "quote": "休日は釣りが好き。",
+          "explanation": "ユーザーが休日の過ごし方について言及しているため。"
+        },
+        {
+          "field": "hobbies",
+          "basis": "stated",
+          "quote": "休日は釣りが好き。",
+          "explanation": "ユーザーは釣りが好きだと述べたため。"
+        },
+        {
+          "field": "example_lines",
+          "basis": "observed",
+          "quote": "ゲーム会社で働いてる、っていうのは冗談。実際は図書館の司書です。",
+          "explanation": "ユーザーが自身のジョークに続けて事実を述べたため、自然な会話の提供として記録。"
+        },
+        {
+          "field": "example_lines",
+          "basis": "observed",
+          "quote": "名前や見た目は答えたくない。",
+          "explanation": "ユーザーが個別情報の共有を拒否したため。"
+        }
+      ],
+      "observations": [
+        "ユーザーは冗談を交えて会話をすることがある。",
+        "ユーザーは名前や見た目などの個人情報の共有を拒否している。"
+      ],
+      "limitations": [
+        "ユーザーは名前や見た目については答えたくないと述べている。",
+        "限られたやり取りからはユーザーの性格や外見に関する詳細な情報は得られていない。",
+        "ユーザーの職業や趣味については直接の自己申告以外に裏付けはなく、その誠実さを確認する手段がない。"
+      ],
+      "extraction_status": "reviewed",
+      "status": "completed",
+      "fictional_completion_note": "未確認の項目はゲーム用に創作した設定であり、本人の事実ではありません。",
+      "supplemented_fields": [
+        "name",
+        "personality",
+        "self_awareness",
+        "fashion_sense.style",
+        "fashion_sense.preferences",
+        "traits",
+        "emotional_expressions",
+        "appearance.hair",
+        "appearance.eyes",
+        "appearance.skin",
+        "appearance.body"
+      ]
+    }
+  },
+  "error": null
+}

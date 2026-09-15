@@ -1,0 +1,17 @@
+{
+  "style": "street",
+  "file": "Himari-StreetCel.blend",
+  "height_m": 1.85,
+  "bones": 25,
+  "vertices": 1660,
+  "triangles": 3016,
+  "wire_triangles": 0,
+  "materials": [
+    "Himari - vertex palette"
+  ],
+  "actions": [
+    "Himari_Idle",
+    "Himari_WalkPreview"
+  ],
+  "vertex_palette": "Color"
+}

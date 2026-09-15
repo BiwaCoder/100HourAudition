@@ -1,0 +1,12 @@
+PASS: 25 reusable LOD groups (fountain 1, columns 8, palms 12, beds 4)
+PASS: all materials have supported shaders with no compiler errors
+PASS: shallow fountain collider blocks basin, no hemisphere obstruction
+Ocean bounds: Center: (0.00, -1.12, -203.00), Extents: (160.12, 0.50, 160.09)
+PASS: 1848 old primitive detail objects preserved and disabled
+exterior original: render + GPU readback mean 60.98 ms at 960x600 (Editor, NOT player frame time)
+exterior detail: render + GPU readback mean 28.64 ms at 960x600 (Editor, NOT player frame time)
+courtyard original: render + GPU readback mean 31.81 ms at 960x600 (Editor, NOT player frame time)
+courtyard detail: render + GPU readback mean 19.39 ms at 960x600 (Editor, NOT player frame time)
+ocean original: render + GPU readback mean 12.73 ms at 960x600 (Editor, NOT player frame time)
+ocean detail: render + GPU readback mean 15.15 ms at 960x600 (Editor, NOT player frame time)
+PASS: verification restored detailed scene, no voice API requests

@@ -1,0 +1,25 @@
+var c=ScriptableObject.CreateInstance<HundredHour.RealityShow.ShowContent>();HundredHour.RealityShow.ShowContent.Populate(c);HundredHour.RealityShow.RomanticLeadProfiles.Apply(c,true);
+var g=new HundredHour.RealityShow.ShowGame(c,null,true);g.State.communicationMechanics=true;g.Begin(812,HundredHour.RealityShow.ShowDifficulty.Easy);g.StartLoop();g.ChooseRoute(0);
+var report=new System.Collections.Generic.List<string>();void Check(bool ok,string label){if(!ok)throw new Exception(label);report.Add("PASS "+label);}
+var old=new HundredHour.RealityShow.ConversationMemory{id="old",partner="yuto",loop=0,topic="カフェ",reply="私はカフェで本を読む時間が好き。"};
+var recent=new HundredHour.RealityShow.ConversationMemory{id="recent",partner="yuto",loop=g.State.loop,topic="映画",reply="休日は映画を観るのが好き！"};
+g.State.conversations.Add(old);g.State.conversations.Add(recent);
+Check(g.SharedMemories().Count==1&&g.RecallMemories().Count==2,"past memories selectable but not shared with NPC");
+Check(g.SelectRecall("old")&&g.SelectRecall("recent",true),"select past and current memories");Check(!g.SelectRecall("old",true),"same memory cannot occupy both selections");
+Check(g.RecallContext().Contains("相手は覚えていない"),"past context explicitly unknown to NPC");
+var a=new HundredHour.RealityShow.TalkAction{recallA="old",recallB="recent",goal=HundredHour.RealityShow.ShowGame.TopicGoals[0]};
+Check(g.MemoryBonus(a)==10,"combined memory including past adds ten");
+var key=(string)g.GetType().GetMethod("SynergyKey",System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Instance).Invoke(g,new object[]{a});
+g.State.memorySynergies.Add(key);
+Check(g.MemoryBonus(a)==0&&g.MemoryBonus(new HundredHour.RealityShow.TalkAction{recallA="recent",recallB="old",goal=a.goal})==0,"same or reversed pair cannot repeat bonus");
+g.State.memorySynergies.Clear();
+int focus=g.State.focus;Check(g.ComposeRecall()&&g.State.focus==focus-1,"compose uses one focus");Check(!g.ComposeRecall(),"double composition blocked");
+var action=g.State.actions[0];Check(action.line.Contains("カフェ")&&action.line.Contains("映画"),"both topics survive composition");
+var reply=HundredHour.RealityShow.ShowDialogue.Local(g,action);Check(!reply.reply.Contains("覚えてて"),"NPC does not pretend to remember past timeline");
+g.Log("secret","人物設定だけの内部情報");g.RecordPresented("相手","画面で読んだ言葉");g.RecordPresented("相手","画面で読んだ言葉");
+Check(g.State.presentedLog.Count==1&&g.State.presentedLog[0].text=="画面で読んだ言葉","only visible text logged, refresh deduplicated");
+g.State.agi=12;Check(g.TimeLeap(),"checkpoint time leap allowed");
+Check(g.RecallMemories().Count==2&&g.SharedMemories().Count==0&&g.State.presentedLog.Count==1,"time leap retains knowledge and visible log but resets shared history");
+g.ChooseRoute(0);g.SelectRecall("old");Check(g.MemoryBonus(new HundredHour.RealityShow.TalkAction{recallA="old",goal=HundredHour.RealityShow.ShowGame.TopicGoals[0]})==6,"single past memory adds six");
+var back=JsonUtility.FromJson<HundredHour.RealityShow.ShowState>(JsonUtility.ToJson(g.State));var loaded=new HundredHour.RealityShow.ShowGame(c,back,true);Check(loaded.RecallMemories().Count==2,"memory timeline survives save/load");
+UnityEngine.Object.DestroyImmediate(c);System.IO.File.WriteAllLines("/tmp/memory-rules.txt",report);return report;

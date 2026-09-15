@@ -1,0 +1,10 @@
+var p=new HundredHour.UI.Timeline.TimelinePaginationModel();
+p.Reset(13,5);
+if(p.StartIndex!=0||p.VisibleCount!=5||p.PageCount!=3)throw new System.Exception("First page failed");
+if(!p.Next()||p.StartIndex!=5||p.VisibleCount!=5)throw new System.Exception("Second page failed");
+if(!p.Next()||p.StartIndex!=10||p.VisibleCount!=3||p.HasNext||p.Next())throw new System.Exception("Final page failed");
+p.Reset(0,5);if(p.VisibleCount!=0||p.HasNext||p.PageCount!=0)throw new System.Exception("Empty feed failed");
+p.Reset(2,5);if(p.VisibleCount!=2||p.HasNext)throw new System.Exception("Short feed failed");
+p.Reset(10,5);p.Next();if(p.VisibleCount!=5||p.HasNext)throw new System.Exception("Exact multiple failed");
+p.Reset(7,0);if(p.PageSize!=1||p.VisibleCount!=1)throw new System.Exception("Invalid page size failed");
+return "PASS: 13 items as 5/5/3, no final overflow, empty/short/exact pages, page-size clamp";

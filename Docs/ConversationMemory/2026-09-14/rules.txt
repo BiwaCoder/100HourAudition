@@ -1,0 +1,15 @@
+PASS past memories selectable but not shared with NPC
+PASS select past and current memories
+PASS same memory cannot occupy both selections
+PASS past context explicitly unknown to NPC
+PASS combined memory including past adds ten
+PASS same or reversed pair cannot repeat bonus
+PASS compose uses one focus
+PASS double composition blocked
+PASS both topics survive composition
+PASS NPC does not pretend to remember past timeline
+PASS only visible text logged, refresh deduplicated
+PASS checkpoint time leap allowed
+PASS time leap retains knowledge and visible log but resets shared history
+PASS single past memory adds six
+PASS memory timeline survives save/load

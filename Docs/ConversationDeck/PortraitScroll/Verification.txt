@@ -1,0 +1,34 @@
+PASS small camera angle change keeps portrait positions -10
+PASS small camera angle change keeps portrait positions -9
+PASS small camera angle change keeps portrait positions -8
+PASS small camera angle change keeps portrait positions -7
+PASS small camera angle change keeps portrait positions -6
+PASS small camera angle change keeps portrait positions -5
+PASS small camera angle change keeps portrait positions -4
+PASS small camera angle change keeps portrait positions -3
+PASS small camera angle change keeps portrait positions -2
+PASS small camera angle change keeps portrait positions -1
+PASS small camera angle change keeps portrait positions 0
+PASS small camera angle change keeps portrait positions 1
+PASS small camera angle change keeps portrait positions 2
+PASS small camera angle change keeps portrait positions 3
+PASS small camera angle change keeps portrait positions 4
+PASS small camera angle change keeps portrait positions 5
+PASS small camera angle change keeps portrait positions 6
+PASS small camera angle change keeps portrait positions 7
+PASS small camera angle change keeps portrait positions 8
+PASS small camera angle change keeps portrait positions 9
+PASS small camera angle change keeps portrait positions 10
+PASS aligned actors have separate portrait windows
+PASS group portrait pair 0/1 does not overlap
+PASS group portrait pair 0/2 does not overlap
+PASS group portrait pair 0/3 does not overlap
+PASS group portrait pair 1/2 does not overlap
+PASS group portrait pair 1/3 does not overlap
+PASS group portrait pair 2/3 does not overlap
+PASS long text enables subtle scrollbar
+PASS scroll content measures actual wrapped text height
+PASS mouse wheel scrolls long text
+PASS scroll reaches later lines
+PASS short text hides scrollbar and resets scroll
+PASS new short message resets to top

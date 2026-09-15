@@ -1,0 +1,13 @@
+var bridge=UnityEngine.Object.FindFirstObjectByType<HundredHour.AuditionEntry.AuditionSceneBridge>();
+var game=bridge.game;
+if(!HundredHour.Localization.LanguageStartMenu.Ready)throw new System.Exception("Language gate blocked");
+if(!game.content.customParticipant||game.content.Person("himari").displayName!="検証用参加者"||game.content.Person("himari").portrait.texture.width!=300)throw new System.Exception("Participant not applied");
+if(!game.content.Person("himari").personality.Contains("好奇心旺盛"))throw new System.Exception("Personality missing");
+var simulation=new HundredHour.RealityShow.ShowGame(game.content);simulation.Begin(17,HundredHour.RealityShow.ShowDifficulty.Easy);
+var method=typeof(HundredHour.RealityShow.ShowGame).GetMethod("BuildActions",System.Reflection.BindingFlags.NonPublic|System.Reflection.BindingFlags.Instance);method.Invoke(simulation,null);
+if(!simulation.State.actions.Any(a=>a.id=="introduce"&&a.line.Contains("検証用参加者")&&a.line.Contains("星空観察")))throw new System.Exception("Generated interests absent from game actions");
+game.saveEnabled=false;
+if(!game.SavePath.Contains("AuditionEntry"))throw new System.Exception("Save not isolated");
+System.IO.File.AppendAllText("Docs/AuditionEntry/verification.txt","PASS copied mansion loaded; language gate passed; runtime content clone received name, personality, hobbies and portrait\nPASS generated introduction uses saved name and hobby; game save isolated\n");
+UnityEngine.ScreenCapture.CaptureScreenshot("Docs/AuditionEntry/game.png");
+return new {phase=game.arrival.Phase.ToString(),name=game.content.Person("himari").displayName,save=game.SavePath};

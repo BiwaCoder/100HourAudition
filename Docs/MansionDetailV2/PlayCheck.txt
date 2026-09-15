@@ -1,0 +1,4 @@
+PASS: splash particles live=93, maximum=256, matching velocity modes
+PASS: Realtime voice sessions=0
+PASS: water shader compiled in Play
+PASS: final Console has no errors; Play stopped; scene saved.

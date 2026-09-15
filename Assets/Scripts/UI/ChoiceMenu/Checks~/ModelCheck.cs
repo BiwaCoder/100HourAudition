@@ -1,0 +1,18 @@
+var model = new HundredHour.UI.Choices.ChoiceMenuModel();
+var labels = new[] { "A", "B", "C" };
+model.SetChoices(labels);
+labels[0] = "mutated";
+if (model.Labels[0] != "A") throw new System.Exception("Labels are not isolated");
+model.Move(-1);
+if (model.SelectedIndex != 2) throw new System.Exception("Wrap up failed");
+model.Move(1);
+if (model.SelectedIndex != 0) throw new System.Exception("Wrap down failed");
+if (model.Select(-1) || model.Select(3)) throw new System.Exception("Invalid selection accepted");
+model.Select(1);
+if (!model.TryConfirm(out int result) || result != 1) throw new System.Exception("Confirm failed");
+if (model.Move(1) || model.Select(0) || model.TryConfirm(out _)) throw new System.Exception("Confirmed choice changed");
+model.SetChoices(System.Array.Empty<string>());
+if (model.SelectedIndex != -1 || model.Move(1) || model.TryConfirm(out _)) throw new System.Exception("Empty choices failed");
+model.SetChoices(new[] { "one" }, 99);
+if (model.SelectedIndex != 0 || !model.TryConfirm(out result) || result != 0) throw new System.Exception("Reset/clamp failed");
+return "PASS: copy isolation, wrap both directions, invalid index, single confirmation, locked state, empty list, reset/clamp";

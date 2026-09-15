@@ -1,0 +1,3 @@
+Himari-Wire Visual: True
+Himari-StreetCel Visual: True
+Himari-Anime Visual: True

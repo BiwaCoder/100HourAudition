@@ -1,0 +1,18 @@
+{
+  "type": "live.insights",
+  "language": "ja",
+  "cards": [
+    {
+      "id": "1-0",
+      "kind": "portrait",
+      "title": "静かな時間を大切",
+      "detail": "静かな時間を大切にしているかも。"
+    },
+    {
+      "id": "1-1",
+      "kind": "topic",
+      "title": "週末の海",
+      "detail": "週末に一人で海を見たり写真を撮るのが好き。"
+    }
+  ]
+}

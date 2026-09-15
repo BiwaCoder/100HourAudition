@@ -1,0 +1,3 @@
+PASS return button visible and interactable
+PASS pointer click closes observation and restores card step
+PASS no extra AI cost or turn consumption

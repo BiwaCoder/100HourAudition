@@ -1,0 +1,7 @@
+PASS start gate blocks intro
+PASS English button changes and saves selection
+PASS actual Begin button starts game
+PASS active story dialogue in English
+PASS return to Japanese
+PASS language switching preserves game state and text size/rect
+PASS saved English restored on next Play; start confirmation still required

@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "character": {
+    "schema_version": "interview-character-v2",
+    "characters": [
+      {
+        "name": "久保健斗",
+        "jobs": "食べ物ジャーナリスト",
+        "personality": "情熱的で好奇心旺盛",
+        "self_awareness": "自分の経験と感性を活かす",
+        "communication_style": [
+          "美味しいものについて熱く語る",
+          "相手の反応を楽しむ"
+        ],
+        "fashion_sense": {
+          "style": "カジュアル",
+          "preferences": "動きやすさと個性"
+        },
+        "conversation_points": [
+          "グルメの旅",
+          "冒険心溢れる料理"
+        ],
+        "traits": [
+          "フレンドリー",
+          "好奇心が強い"
+        ],
+        "hobbies": [
+          "旅をする",
+          "珍しい料理の探求",
+          "料理をする"
+        ],
+        "emotional_expressions": [
+          "すごく美味しいよ！",
+          "これは初めての味だね！"
+        ],
+        "example_lines": [
+          "最新のレストランを試したんだ、すごく良かったよ！",
+          "旅先で見つけた珍しい料理を今度紹介したいな。"
+        ],
+        "appearance": {
+          "hair": "茶色のくせ毛",
+          "eyes": "好奇心に満ちた茶色の瞳",
+          "skin": "健康的な肌",
+          "body": "動きやすいがっちりした体型"
+        }
+      }
+    ],
+    "profile_quality": {
+      "observations": [
+        "この会話ではユーザー発言の文字起こしが得られなかった。"
+      ],
+      "limitations": [
+        "無言とマイク・文字起こしの問題は区別できず、性格を断定できない。"
+      ],
+      "extraction_status": "no_speech",
+      "status": "completed",
+      "fictional_completion_note": "未確認の項目はゲーム用に創作した設定であり、本人の事実ではありません。",
+      "supplemented_fields": [
+        "name",
+        "jobs",
+        "personality",
+        "self_awareness",
+        "communication_style",
+        "fashion_sense.style",
+        "fashion_sense.preferences",
+        "conversation_points",
+        "traits",
+        "hobbies",
+        "emotional_expressions",
+        "example_lines",
+        "appearance.hair",
+        "appearance.eyes",
+        "appearance.skin",
+        "appearance.body"
+      ]
+    }
+  },
+  "error": null
+}

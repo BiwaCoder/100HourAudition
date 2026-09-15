@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b8bcf65528a4e9f98790ec1606784a, type: 3}
+  m_Name: conversation
+  m_EditorClassIdentifier: Assembly-CSharp::HundredHour.Cutscenes.CutsceneSequence
+  title: "\u80A9\u8D8A\u3057\u3067\u8A00\u8449\u3092\u805E\u304F"
+  instruction: "\u80A9\u8D8A\u3057\u3067\u8A00\u8449\u3092\u805E\u304F"
+  fadeIn: 0.35
+  fadeOut: 0.25
+  shots:
+  - label: OverShoulder
+    kind: 2
+    actorA: himari
+    actorB: yuto
+    duration: 3.2
+    transition: 2
+    transitionSeconds: 0.3
+    distance: 7
+    yaw: 0
+    elevation: 0.6
+    startFov: 40
+    endFov: 40
+    orbitDegrees: 60
+  - label: ReverseShoulder
+    kind: 3
+    actorA: himari
+    actorB: yuto
+    duration: 3.2
+    transition: 2
+    transitionSeconds: 0.3
+    distance: 7
+    yaw: 0
+    elevation: 0.6
+    startFov: 40
+    endFov: 40
+    orbitDegrees: 60
+  - label: TwoShot
+    kind: 1
+    actorA: himari
+    actorB: yuto
+    duration: 3.2
+    transition: 2
+    transitionSeconds: 0.3
+    distance: 7
+    yaw: 0
+    elevation: 0.6
+    startFov: 40
+    endFov: 40
+    orbitDegrees: 60

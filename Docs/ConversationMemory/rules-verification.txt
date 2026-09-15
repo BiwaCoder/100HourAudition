@@ -1,0 +1,14 @@
+PASS topic starts
+PASS double request cannot double charge
+PASS unsaid AI topic is not shared memory
+PASS spoken line and reply saved together
+PASS one shared memory opens new angle +4
+PASS new angle increases understanding
+PASS repeated goal on same memory has no synergy bonus
+PASS two memories create +7 bridge
+PASS reversing pair cannot farm bonus
+PASS save roundtrip retains memories and understanding
+PASS partner cannot recall erased timeline
+30 seeds mode=0 wins=0 meanChapter=0.5 meanUnderstanding=6.0
+30 seeds mode=1 wins=28 meanChapter=1.9 meanUnderstanding=42.9
+30 seeds mode=2 wins=30 meanChapter=2.0 meanUnderstanding=62.5

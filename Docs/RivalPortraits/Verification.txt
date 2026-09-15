@@ -1,0 +1,3 @@
+Japanese: 雨宮ののか / Assets/Resources/AuditionCast/nonoka_romantic.png; 白石杏奈 / Assets/Resources/AuditionCast/anna_rival.png
+English: Nonoka Amamiya / Assets/Resources/AuditionCast/nonoka_romantic.png; Anna Shiraishi / Assets/Resources/AuditionCast/anna_rival.png
+PASS both locale names, both Sprite references, male rival preservation

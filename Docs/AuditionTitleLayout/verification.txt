@@ -1,0 +1,6 @@
+Full HD 1920x1080
+PASS: initial-screen RectTransforms, visibility and text match before/after Play.
+PASS: native Unity Game View visually matches in Play and after stopping (background animation naturally changes).
+PASS: Continue button opens gender selection; language-change button returns to language selection.
+PASS: compilation completed without compiler errors.
+Saved AuditionTitle scene; left Play stopped.

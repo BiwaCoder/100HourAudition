@@ -1,0 +1,6 @@
+01-ready: rms=0, peak=0, meshVertices=4, color=RGBA(0.220, 0.550, 1.000, 1.000), connected=False, microphone=False
+02-blue-output: rms=0.05345614, peak=0.2776515, meshVertices=616, color=RGBA(0.220, 0.550, 1.000, 1.000), connected=False, microphone=False
+03-red-input: rms=0.1126529, peak=0.4076035, meshVertices=628, color=RGBA(1.000, 0.250, 0.320, 1.000), connected=False, microphone=False
+04-purple-output: rms=0.04208394, peak=0.2358943, meshVertices=616, color=RGBA(0.650, 0.420, 1.000, 1.000), connected=False, microphone=False
+05-forming: rms=0, peak=0, meshVertices=8, color=RGBA(0.650, 0.420, 1.000, 1.000), connected=False, microphone=False
+06-complete: rms=0, peak=0, meshVertices=8, color=RGBA(0.650, 0.420, 1.000, 1.000), connected=False, microphone=False

@@ -1,0 +1,42 @@
+{
+  "Fountain": {
+    "lod0_triangles": 37664,
+    "vertices": 21000,
+    "lod1_triangles": 12052
+  },
+  "Column": {
+    "lod0_triangles": 14256,
+    "vertices": 7852,
+    "lod1_triangles": 4560
+  },
+  "Palm": {
+    "lod0_triangles": 23320,
+    "vertices": 17850,
+    "lod1_triangles": 7461
+  },
+  "PlantBed": {
+    "lod0_triangles": 58188,
+    "vertices": 58485,
+    "lod1_triangles": 26184
+  },
+  "ocean_benchmark": [
+    {
+      "resolution": 7,
+      "triangles": 4802,
+      "vertices": 2500,
+      "evaluate_seconds": 0.0156
+    },
+    {
+      "resolution": 9,
+      "triangles": 13122,
+      "vertices": 6724,
+      "evaluate_seconds": 0.0032
+    },
+    {
+      "resolution": 12,
+      "triangles": 41472,
+      "vertices": 21025,
+      "evaluate_seconds": 0.0061
+    }
+  ]
+}

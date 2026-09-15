@@ -1,0 +1,23 @@
+{
+  "type": "live.insights",
+  "cards": [
+    {
+      "id": "1-0",
+      "kind": "portrait",
+      "title": "海沿いの散歩",
+      "detail": "一人でのんびり歩くのが好きかも"
+    },
+    {
+      "id": "1-1",
+      "kind": "topic",
+      "title": "静かに考える時間",
+      "detail": "一人の時間を大切にしてそう"
+    },
+    {
+      "id": "1-2",
+      "kind": "topic",
+      "title": "趣味の写真撮影",
+      "detail": "写真撮影を趣味にしているかも"
+    }
+  ]
+}

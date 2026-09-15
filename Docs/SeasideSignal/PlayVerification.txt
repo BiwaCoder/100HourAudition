@@ -1,0 +1,23 @@
+PASS: arrival hands off and locks movement
+PASS: self visible; counterpart unrevealed
+PASS: existing ChoiceMenu confirmation reaches rules
+PASS: first elimination
+PASS: silhouette precedes identity
+PASS: AI initially keeps eyes closed
+PASS: eye animation has intermediate frame
+PASS: eyes complete opening
+PASS: AI declaration resolves portrait
+PASS: tutorial enters simulated route
+PASS: guided first observation blocks premature speech only
+PASS: forecast previews without resolving talk or consuming RNG
+PASS: one-time training energy
+PASS: optional perspective
+PASS: optional weather choice and cost
+PASS: optional card draft
+PASS: card choice returns to conversation
+PASS: speech completes tutorial; weather expires
+PASS: memory composes a playable line
+PASS: memory card discovered from spoken memory
+PASS: leap restores route and retains memories/cards with cost
+PASS: save/resume preserves exact rules and tutorial state
+PASS: integrated game reaches ending without deadlock

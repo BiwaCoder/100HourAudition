@@ -1,0 +1,14 @@
+PASS: idle hides all unnecessary UI
+PASS: assistant prompt alone is visible
+PASS: listening shows microphone and transcript only
+PASS: transcription event appears on the user panel
+PASS: review opens confirm/retry and closes mic
+PASS: duplicate or late transcription does not replace candidate
+PASS: retry button is wired
+PASS: second answer has a clear final action
+PASS: final confirm starts JSON generation and hides input
+PASS: live build-character request completes
+PASS: result/copy/restart visible only on completion
+PASS: generated result is a JSON object
+PASS: long JSON scrolls instead of overflowing
+PASS: cancel/reset closes input and clears run

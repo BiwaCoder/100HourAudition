@@ -1,0 +1,15 @@
+Scene: SeasideMansion; Play=False
+LOD groups: 44
+Lights: 6
+Lantern: 6
+Sofa: 10
+ThrowPillow: 20
+Table: 8
+Missing/unsupported materials: 0
+HundredHour/Coastal Furnishing shader messages: 0
+Hidden/HundredHour/Mansion Soft Glow shader messages: 0
+960x600 Camera.Render + synchronous readback, glow False: 30.85 ms (not player FPS)
+960x600 Camera.Render + synchronous readback, glow True: 26.32 ms (not player FPS)
+
+Timing includes editor/readback variability. The reversed difference is not evidence of a speedup. No mobile/player FPS claim.
+Play: introduction reached Walking, main camera glow active. Explicit editor_stop succeeded; console had no errors or warnings.

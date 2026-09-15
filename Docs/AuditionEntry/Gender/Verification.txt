@@ -1,0 +1,10 @@
+PASS player, one love interest and three rivals
+PASS female romantic lead
+PASS konoa male rival with portrait
+PASS hikari male rival with portrait
+PASS shiori male rival with portrait
+PASS default male player has portrait
+PASS male save path isolated
+PASS AI context uses selected cast and gender
+PASS visible dialogue and archetype use male cast
+PASS female cast and original profile/save paths preserved

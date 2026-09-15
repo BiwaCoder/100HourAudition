@@ -1,0 +1,49 @@
+{
+  "status": "completed",
+  "buildId": "build_adb8708bfba6",
+  "result": "Succeeded",
+  "platform": "WebGL",
+  "outputPath": "/Users/matsumurakatsuhiro/Documents/UnityGameFolder/100HourAIGame/Builds/WebGLRelease",
+  "totalSizeBytes": 80255633,
+  "buildTimeMs": 133498,
+  "buildStartedAt": "2026-09-13T19:04:06.2272800Z",
+  "buildEndedAt": "2026-09-13T19:06:19.7262160Z",
+  "totalWarnings": 9,
+  "totalErrors": 0,
+  "errors": [],
+  "warnings": [
+    {
+      "message": "Pipeline: No RuntimePipelineManager components found in build scenes. Pipeline will be disabled in Player builds."
+    },
+    {
+      "message": "Cross scene references are not supported: 'RenderSettings' in scene AuditionTitle has an invalid reference to 'Light' in scene SeasideMansionAudition. This reference will not be saved in the scene."
+    },
+    {
+      "message": "'Light' in scene SeasideMansionAudition (click to ping it)"
+    },
+    {
+      "message": "warning CS0618: 'SystemInfo.supportsImageEffects' is obsolete: 'supportsImageEffects always returns true, no need to call it'",
+      "file": "Assets/Stylizer/Resources/Scripts/StylizerBase.cs"
+    },
+    {
+      "message": "warning CS0618: 'SystemInfo.supportsImageEffects' is obsolete: 'supportsImageEffects always returns true, no need to call it'",
+      "file": "Assets/Stylizer/Resources/Scripts/Stylizer.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType'",
+      "file": "Assets/FunlySkyStudio/Core/Scripts/Weather/Rain/RainSplashRenderer.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectOfType<T>()' is obsolete: 'Object.FindObjectOfType has been deprecated. Use Object.FindFirstObjectByType instead or if finding any instance is acceptable the faster Object.FindAnyObjectByType'",
+      "file": "Assets/FunlySkyStudio/Core/Scripts/Utility/LoadOverheadDepthTexture.cs"
+    },
+    {
+      "message": "warning CS0414: The field 'MansionSignalDirector.secondMemory' is assigned but its value is never used",
+      "file": "Assets/Scripts/Environments/SeasideMansion/Runtime/MansionSignalDirector.cs"
+    },
+    {
+      "message": "warning CS0414: The field 'MicrophoneCapture.chunkIntervalSeconds' is assigned but its value is never used",
+      "file": "Assets/Scripts/RealtimeVoice/Runtime/MicrophoneCapture.cs"
+    }
+  ]
+}

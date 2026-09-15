@@ -1,0 +1,17 @@
+{
+  "style": "anime",
+  "file": "Himari-Anime.blend",
+  "height_m": 1.721,
+  "bones": 25,
+  "vertices": 3123,
+  "triangles": 5828,
+  "wire_triangles": 0,
+  "materials": [
+    "Himari - vertex palette"
+  ],
+  "actions": [
+    "Himari_Idle",
+    "Himari_WalkPreview"
+  ],
+  "vertex_palette": "Color"
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "score": 0.7150000000000001,
+    "winRates": {
+      "positive": 0.99,
+      "strategic": 0.8,
+      "artistic": 0.985
+    },
+    "rivalBase": 11,
+    "revealPower": 7
+  },
+  {
+    "score": 0.7499999999999999,
+    "winRates": {
+      "positive": 1.0,
+      "strategic": 0.965,
+      "artistic": 1.0
+    },
+    "rivalBase": 9,
+    "revealPower": 5
+  },
+  {
+    "score": 0.75,
+    "winRates": {
+      "positive": 1.0,
+      "strategic": 0.915,
+      "artistic": 1.0
+    },
+    "rivalBase": 9,
+    "revealPower": 3
+  },
+  {
+    "score": 0.75,
+    "winRates": {
+      "positive": 1.0,
+      "strategic": 0.98,
+      "artistic": 1.0
+    },
+    "rivalBase": 9,
+    "revealPower": 7
+  },
+  {
+    "score": 0.8649999999999999,
+    "winRates": {
+      "positive": 0.985,
+      "strategic": 0.67,
+      "artistic": 0.985
+    },
+    "rivalBase": 11,
+    "revealPower": 5
+  },
+  {
+    "score": 1.1349999999999998,
+    "winRates": {
+      "positive": 0.985,
+      "strategic": 0.535,
+      "artistic": 0.985
+    },
+    "rivalBase": 11,
+    "revealPower": 3
+  },
+  {
+    "score": 1.215,
+    "winRates": {
+      "positive": 0.885,
+      "strategic": 0.365,
+      "artistic": 0.905
+    },
+    "rivalBase": 13,
+    "revealPower": 7
+  },
+  {
+    "score": 1.46,
+    "winRates": {
+      "positive": 0.89,
+      "strategic": 0.25,
+      "artistic": 0.91
+    },
+    "rivalBase": 13,
+    "revealPower": 5
+  },
+  {
+    "score": 1.7000000000000002,
+    "winRates": {
+      "positive": 0.89,
+      "strategic": 0.13,
+      "artistic": 0.91
+    },
+    "rivalBase": 13,
+    "revealPower": 3
+  }
+]

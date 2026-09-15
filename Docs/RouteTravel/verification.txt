@@ -1,0 +1,2 @@
+PASS route 0: UI confirmation, input lock, moving camera, UI restored, both actors at z=-17
+PASS route 1: UI confirmation, input lock, moving camera, UI restored, both actors at z=4.6

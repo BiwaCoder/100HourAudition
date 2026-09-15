@@ -1,0 +1,12 @@
+PASS archetype screen
+PASS AI support precedes cards and choices
+PASS forecast unlocks card explanation without advancing turn
+PASS exactly three visible cards
+PASS readable HUD and cards
+PASS two rival cubes active
+PASS two rival portrait windows active
+PASS group interruption telegraph
+PASS NPC conversation observation opens
+PASS two-shot hides rivals
+PASS AI card yields playable topic and charges once
+PASS save/resume preserves mechanics

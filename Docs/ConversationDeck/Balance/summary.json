@@ -1,0 +1,98 @@
+{
+  "positive": {
+    "runs": 1000,
+    "winRate": 0.99,
+    "meanTrust": 307.908,
+    "cardUses": {
+      "praise_topic": 999,
+      "nickname": 3774,
+      "smile": 3788,
+      "sun_topic": 1001,
+      "touch": 3787,
+      "cheer": 3756,
+      "lean": 3776,
+      "wow": 3814,
+      "sun_rare": 880,
+      "spot_rare": 868,
+      "promise_rare": 866
+    },
+    "cardAppearances": {
+      "praise_topic": 3935,
+      "nickname": 3935,
+      "smile": 3964,
+      "sun_topic": 3931,
+      "touch": 3953,
+      "cheer": 3932,
+      "lean": 3948,
+      "wow": 3971,
+      "sun_rare": 1107,
+      "future_rare": 1151,
+      "spot_rare": 1064,
+      "promise_rare": 1097
+    }
+  },
+  "strategic": {
+    "runs": 1000,
+    "winRate": 0.725,
+    "meanTrust": 237.614,
+    "cardUses": {
+      "bridge_topic": 992,
+      "repair": 3734,
+      "reveal": 3733,
+      "question_topic": 1008,
+      "listen_plan": 3735,
+      "secret": 2999,
+      "rumor": 3704,
+      "interrupt": 3413,
+      "checkmate": 207,
+      "honest_rare": 863,
+      "protect_rare": 865
+    },
+    "cardAppearances": {
+      "bridge_topic": 3811,
+      "repair": 3845,
+      "reveal": 3850,
+      "question_topic": 3826,
+      "listen_plan": 3822,
+      "secret": 3770,
+      "rumor": 3822,
+      "interrupt": 3845,
+      "checkmate": 1027,
+      "honest_rare": 1052,
+      "protect_rare": 1031,
+      "secret_rare": 1075
+    }
+  },
+  "artistic": {
+    "runs": 1000,
+    "winRate": 0.97,
+    "meanTrust": 346.124,
+    "cardUses": {
+      "place_topic": 999,
+      "mystery": 3767,
+      "flower": 3780,
+      "garden_topic": 1001,
+      "rain_sign": 3775,
+      "weather_read": 3746,
+      "counter": 3767,
+      "place": 3800,
+      "garden_rare": 877,
+      "return_rare": 866,
+      "storm_rare": 863
+    },
+    "cardAppearances": {
+      "place_topic": 3924,
+      "mystery": 3927,
+      "flower": 3955,
+      "garden_topic": 3916,
+      "rain_sign": 3935,
+      "weather_read": 3921,
+      "counter": 3941,
+      "place": 3959,
+      "garden_rare": 1104,
+      "myth_rare": 1142,
+      "return_rare": 1060,
+      "storm_rare": 1096
+    }
+  }
+}

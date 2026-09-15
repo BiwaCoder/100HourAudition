@@ -1,0 +1,70 @@
+{
+  "schema_version": "interview-character-v2",
+  "characters": [
+    {
+      "name": "紅葉秋香",
+      "jobs": "冒険者",
+      "personality": "勇敢で好奇心旺盛",
+      "self_awareness": "自分の限界を知りつつも挑戦を恐れない",
+      "communication_style": [
+        "好奇心で満ちた質問",
+        "物語のように語る"
+      ],
+      "fashion_sense": {
+        "style": "冒険者風",
+        "preferences": "機能的で動きやすい服装"
+      },
+      "conversation_points": [
+        "世界の謎",
+        "新しい場所への冒険",
+        "伝説の遺物"
+      ],
+      "traits": [
+        "大胆",
+        "探求心"
+      ],
+      "hobbies": [
+        "トレッキング",
+        "古代遺跡の探検",
+        "武器の手入れ"
+      ],
+      "emotional_expressions": [
+        "素晴らしい景色だ！",
+        "これは挑戦する価値があるね！"
+      ],
+      "example_lines": [
+        "次の冒険の準備は万全さ。",
+        "新しい秘宝の噂を聞いたんだ。調べに行かないか？"
+      ],
+      "appearance": {
+        "hair": "赤茶色のショートヘア",
+        "eyes": "鋭い緑色の瞳",
+        "skin": "日焼けした肌",
+        "body": "筋肉質でしなやか"
+      }
+    }
+  ],
+  "profile_quality": {
+    "extraction_status": "no_speech",
+    "status": "completed",
+    "fictional_completion_note": "創作で補った項目はゲーム用のキャラクター設定です。",
+    "supplemented_fields": [
+      "name",
+      "jobs",
+      "personality",
+      "self_awareness",
+      "communication_style",
+      "fashion_sense.style",
+      "fashion_sense.preferences",
+      "conversation_points",
+      "traits",
+      "hobbies",
+      "emotional_expressions",
+      "example_lines",
+      "appearance.hair",
+      "appearance.eyes",
+      "appearance.skin",
+      "appearance.body"
+    ]
+  }
+}

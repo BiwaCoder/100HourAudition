@@ -1,0 +1,1 @@
+PASS scrollable rows, two selections, third blocked, no A/B navigation, non-overlapping toolbar, compose, visible-only log

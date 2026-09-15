@@ -1,0 +1,9 @@
+# Joystick Cube Demo
+
+`Assets/Scenes/JoystickCubeDemo.unity` を開いてPlay。左下のFixed Joystickをマウスまたはタッチでドラッグすると、カメラ基準でキューブが移動します。離すと水平移動が止まります。スペースキーでジャンプできます（接地時のみ）。Jump Heightで高さを調整できます。
+
+`PlayerCube > JoystickCubeMover` のSpeed（初期値6）で移動速度、JoystickとReference Cameraで参照を変更できます。Rigidbodyは回転固定で、重力と壁との衝突を使用しています。床は20×20のPlaneです。
+
+参考：3D_Movie_CharMoveのJoyStickController.GetWorldMoveDirectionとCharcterMoveのRigidbody移動。入力から移動方向への変換方法を参考にし、アニメーションやゲーム進行への依存は持ち込みませんでした。Joystick Packの既存Fixed Joystick Prefabを使用しています。
+
+Assets/Scripts/Gameplay/Movement/Checks~のBuildScene.csはUnity Pipelineのeval_file用（同名シーンがある場合は生成を拒否）。CheckMovement.csはPlay中のジョイスティックイベントから移動・停止を確認するスクリプトです。

@@ -1,0 +1,4 @@
+PASS
+Assistant: これから、君の新しいキャラクターを作ろう。まずはマイクチェックだ。何か話してくれ。
+Error:
+User audio was not submitted: input gate was closed before listening activation.

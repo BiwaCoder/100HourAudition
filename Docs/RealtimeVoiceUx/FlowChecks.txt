@@ -1,0 +1,14 @@
+PASS: idle ignores input
+PASS: connecting ignores input
+PASS: assistant speaks first; prompt does not accept input
+PASS: empty mic test stays listening
+PASS: review ignores duplicate transcript
+PASS: retry clears candidate
+PASS: mic test excluded from both answers
+PASS: only confirmed Q1 advances
+PASS: Q2 retry replaces rather than adds an answer
+PASS: JSON input contains exactly the two confirmed answers
+PASS: generation ignores late events
+PASS: completion
+PASS: restart clears prior run
+PASS: error and cancel return to ready

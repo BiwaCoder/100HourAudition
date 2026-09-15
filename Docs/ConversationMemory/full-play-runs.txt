@@ -1,0 +1,10 @@
+run 1 chapter 1: PythonAPI topic / 最近、未完成のゲームのことを思い出しました。小さな喫茶店で、リラックスしながら新しいアイデアを探るのも面白いかもしれませんね。どう思いますか？
+run 1 chapter 2: PythonAPI topic / 最近の星空の帰り道を思い出すと、旅先のスケッチが心に残ってるんだ。それを一緒に描く機会、どう思う？
+run 1 chapter 2: PythonAPI / その話、みんなにも聞いてみたい。
+run 1 chapter 3: PythonAPI topic / 美術館の迷路を一緒に探検して、星空の帰り道のことを語り合うのはどう？新しい発見があれば楽しそうだね。あなたはどう思う？
+run 1 ended Victory / memories 12 / understanding 65 / trust 223
+run 2 chapter 1: PythonAPI topic / 美術館の迷路には、いつか一緒に迷い込んでみたいな。星空の帰り道みたいに、心地よい時間を共に過ごせたら嬉しいな。あなたはどう思う？
+run 2 chapter 2: PythonAPI topic / 旅先のスケッチに込めた思いを、未完成のゲームと一緒に描いていけたらいいなと思うんだけど、美月さんはどう思う？どんな未来を描きたい？
+run 2 chapter 2: PythonAPI / その話、みんなにも聞いてみたい。
+run 2 chapter 3: PythonAPI topic / 最近、仕事の合間に小さな喫茶店で過ごすのが好きなんだ。美術館の迷路でのリフレッシュもいいけど、一緒に行くならどんなところがいい？
+run 2 ended Victory / memories 12 / understanding 65 / trust 216

@@ -1,0 +1,7 @@
+PASS voice scene from menu; disconnected until user starts
+PASS generated JSON event persisted participant
+PASS portrait event persisted PNG; source and result displayed 3:5 without stretch
+PASS menu restored saved name and portrait; no repeated language gate
+PASS copied mansion loaded; language gate passed; runtime content clone received name, personality, hobbies and portrait
+PASS generated introduction uses saved name and hobby; game save isolated
+PASS arrival completed to Walking; participant label updated; no legacy input module

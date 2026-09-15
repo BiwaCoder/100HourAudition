@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "language": "en",
+  "input": "PCM silence only; no user speech",
+  "first_audible_output_seconds": 2.1,
+  "opening_complete_seconds": 13.1,
+  "audio_bytes": 576000,
+  "transcript": " Hello, I am Kumono. You are about to enter a reality show, and this conversation is your audition. Like an isekai or science-fiction story, you will warp into a digital world. First, what have you been really into lately?"
+}

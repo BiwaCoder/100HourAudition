@@ -1,0 +1,5 @@
+PASS human action spends one Focus and no AI
+PASS human action deepens selected topic
+PASS repeat human action cannot charge twice
+PASS only advice shown: Japanese
+PASS remaining button is Saori advice

@@ -1,0 +1,27 @@
+PASS nonempty bilingual catalog
+PASS all registered entries have English
+PASS unique keys
+PASS stable key lookup
+PASS Japanese source lookup
+PASS missing translation falls back
+PASS composed name label
+PASS parameterized dialogue translated at display boundary
+PASS formatted counters
+PASS caption heading: SEASIDE MANSION / 海辺の邸宅
+PASS caption body
+PASS caption heading: COURTYARD / 出会いの中庭
+PASS caption body
+PASS caption heading: HIMARI / あなたの一歩
+PASS caption body
+PASS caption heading: FIRST STEP / あの人のもとへ
+PASS caption body
+PASS AI reveal translated
+PASS AI reveal translated
+PASS AI reveal translated
+PASS AI reveal translated
+PASS AI reveal translated
+PASS AI reveal translated
+PASS AI reveal translated
+PASS return to Japanese
+PASS source Japanese restored
+Total 26 passed; catalog entries 183

@@ -1,0 +1,221 @@
+{
+  "all_routes_clear": true,
+  "checks": [
+    {
+      "route": "entrance",
+      "height": 0.4,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "entrance",
+      "height": 1,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "entrance",
+      "height": 1.7,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "around fountain A",
+      "height": 0.4,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "around fountain A",
+      "height": 1,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "around fountain A",
+      "height": 1.7,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "around fountain B",
+      "height": 0.4,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "around fountain B",
+      "height": 1,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "around fountain B",
+      "height": 1.7,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "north lounge",
+      "height": 0.4,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "north lounge",
+      "height": 1,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "north lounge",
+      "height": 1.7,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "gallery -1",
+      "height": 0.4,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "gallery -1",
+      "height": 1,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "gallery -1",
+      "height": 1.7,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (-1, -6)",
+      "height": 0.4,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (-1, -6)",
+      "height": 1,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (-1, -6)",
+      "height": 1.7,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (-1, 0)",
+      "height": 0.4,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (-1, 0)",
+      "height": 1,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (-1, 0)",
+      "height": 1.7,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (-1, 6)",
+      "height": 0.4,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (-1, 6)",
+      "height": 1,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (-1, 6)",
+      "height": 1.7,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "gallery 1",
+      "height": 0.4,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "gallery 1",
+      "height": 1,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "gallery 1",
+      "height": 1.7,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (1, -6)",
+      "height": 0.4,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (1, -6)",
+      "height": 1,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (1, -6)",
+      "height": 1.7,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (1, 0)",
+      "height": 0.4,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (1, 0)",
+      "height": 1,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (1, 0)",
+      "height": 1.7,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (1, 6)",
+      "height": 0.4,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (1, 6)",
+      "height": 1,
+      "clear": true,
+      "obstacle": null
+    },
+    {
+      "route": "room (1, 6)",
+      "height": 1.7,
+      "clear": true,
+      "obstacle": null
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+PASS Japanese focus=ensemble: all four cube centers visible and unoccluded
+PASS Japanese focus=himari: all four cube centers visible and unoccluded
+PASS Japanese focus=yuto: all four cube centers visible and unoccluded
+PASS Japanese focus=ren: all four cube centers visible and unoccluded
+PASS Japanese focus=hikari: all four cube centers visible and unoccluded
+PASS English focus=ensemble: all four cube centers visible and unoccluded
+PASS English focus=himari: all four cube centers visible and unoccluded
+PASS English focus=yuto: all four cube centers visible and unoccluded
+PASS English focus=ren: all four cube centers visible and unoccluded
+PASS English focus=hikari: all four cube centers visible and unoccluded

@@ -1,0 +1,40 @@
+{
+  "name": "高橋美咲",
+  "jobs": "幼稚園の先生",
+  "personality": "穏やかで慎重",
+  "self_awareness": "誠実さを大切にする",
+  "communication_style": [
+    "優しい",
+    "思慮深い"
+  ],
+  "fashion_sense": {
+    "style": "ナチュラル",
+    "preferences": "シンプルで落ち着いた色合い"
+  },
+  "conversation_points": [
+    "絵本の最新トレンド",
+    "ガーデニングのコツ"
+  ],
+  "traits": [
+    "誠実",
+    "思いやりがある"
+  ],
+  "hobbies": [
+    "絵本の収集",
+    "小さな花を育てる"
+  ],
+  "emotional_expressions": [
+    "微笑みで応える",
+    "静かな口調で話す"
+  ],
+  "example_lines": [
+    "この絵本、本当に素敵ですよね。",
+    "この花、綺麗に咲くといいな。"
+  ],
+  "appearance": {
+    "hair": "ダークブラウンのふんわりとしたミディアムヘア",
+    "eyes": "優しいブラウンの瞳",
+    "skin": "透明感のある白い肌",
+    "body": "小柄で華奢な体型"
+  }
+}

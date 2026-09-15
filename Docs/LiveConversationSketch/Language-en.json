@@ -1,0 +1,18 @@
+{
+  "type": "live.insights",
+  "language": "en",
+  "cards": [
+    {
+      "id": "1-0",
+      "kind": "portrait",
+      "title": "Enjoys Quiet Time",
+      "detail": "Enjoys spending quiet time by the sea or taking photos alone."
+    },
+    {
+      "id": "1-1",
+      "kind": "portrait",
+      "title": "Values Socializing",
+      "detail": "Values talking with friends but also enjoys solitary activities."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "purpose": "ユーザー提供の人物テンプレートから補完用の特徴を整理。名前や経歴の丸写しではなく会話に合う組み合わせを作る。",
+  "characters": [
+    {"name":"松村悠斗","jobs":"ゲームクリエイター","personality":"穏やかで知的、柔軟","self_awareness":"知識や趣味を押しつけず活かす","communication_style":["丁寧で落ち着いた話し方","相手の興味に合わせる"],"fashion_sense":{"style":"スマートカジュアル","preferences":"ネイビーやグレー"},"conversation_points":["文化","ゲーム制作"],"traits":["誠実","包容力"],"hobbies":["美術館","読書","写真"],"emotional_expressions":["なるほど、その視点は面白いですね。"],"example_lines":["最近見た展示が刺激的でした。"],"appearance":{"hair":"黒髪の七三分け","eyes":"メガネと優しい眼差し","skin":"健康的","body":"すらりとした体型"}},
+    {"name":"三橋一真","jobs":"SNSインフルエンサー","personality":"社交的で余裕がある","communication_style":["親しみやすい","冗談で緊張を解く"],"traits":["気配り","リーダーシップ"],"hobbies":["ドライブ","旅行"],"fashion_sense":{"style":"上品なカジュアル","preferences":"バランスのよいコーディネート"}},
+    {"name":"小森竜也","jobs":"画家","personality":"情熱的で独創的","self_awareness":"信念と弱さの両方を受け入れる","communication_style":["率直に本音を語る"],"hobbies":["絵画","ライブ","バイク"],"fashion_sense":{"style":"アーティスティック","preferences":"黒とアクセサリー"}},
+    {"name":"石田翔太","jobs":"ITエンジニア","personality":"好奇心が強く誠実","self_awareness":"技術に自信、人付き合いには不安もある","communication_style":["丁寧","好きな技術では饒舌"],"traits":["努力家","純粋"],"hobbies":["プログラミング","アニメ","ゲーム"],"fashion_sense":{"style":"機能的でシンプル","preferences":"清潔感"}},
+    {"name":"星野ひかり","personality":"明るく人を楽しませる","self_awareness":"魅力の表現を工夫する","communication_style":["あだ名で距離を縮める","感情豊かな相づち"],"hobbies":["ショッピング","カフェ","旅行","映画"],"fashion_sense":{"style":"フリルやレース","preferences":"季節感と上質な素材"},"emotional_expressions":["わー！","教えて教えて！"]},
+    {"name":"佐々木詩織","personality":"丁寧で思慮深い","self_awareness":"落ち着いた魅力を活かす","communication_style":["丁寧な挨拶","文化の話題","少し照れながら共感"],"traits":["真面目","優しい"],"hobbies":["読書","美術館","手紙"],"fashion_sense":{"style":"上品で落ち着いた色","preferences":"柔らかい素材"}},
+    {"name":"涙月凛","jobs":"ファッションモデル","personality":"元気で多面的、恋愛では初心","self_awareness":"モデル、ゲーム、スポーツの多面性を大切にする","communication_style":["趣味を熱く語る","TPOで話し方を切り替える"],"traits":["エネルギッシュ","純粋"],"hobbies":["RPG","FPS","アニメ","スポーツ"],"fashion_sense":{"style":"モードからカジュアル","preferences":"トレンドと自分らしさ"}}
+  ]
+}

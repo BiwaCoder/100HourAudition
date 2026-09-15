@@ -1,0 +1,27 @@
+{
+  "status": "Integrated into SeasideMansionCharacterTest on 2026-09-12",
+  "unity_operations_performed": true,
+  "scene": "Assets/Scenes/GameScene/SeasideMansionCharacterTest.unity",
+  "protagonist": {
+    "actorId": "himari",
+    "gameObject": "MansionPlayerCube",
+    "wire": "Himari-Wire.fbx",
+    "street": "Himari-StreetCel.fbx",
+    "anime": "Himari-Anime.fbx"
+  },
+  "bachelor": {
+    "actorId": "yuto",
+    "gameObject": "Yuto - First Encounter",
+    "reuse_existing": {
+      "wire": [
+        "Assets/RealityShow/CharacterPrototype/Silhouette.asset",
+        "Assets/RealityShow/CharacterPrototype/Wire contours.asset"
+      ],
+      "street": "Assets/RealityShow/CharacterPrototype/StyleV2/Himari Street Toon.asset",
+      "anime": "Assets/RealityShow/CharacterPrototype/StyleV2/Himari Storybook Toon.asset"
+    },
+    "note": "Existing asset names retain Himari; visual instances moved to Yuto. Shared V/button style switch."
+  },
+  "next_steps": [],
+  "animation": "Legacy Animation, Idle/Walk crossfade, 25 bones; visual-only movement"
+}

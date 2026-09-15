@@ -1,0 +1,4 @@
+topicSource=PythonAPI topic
+topic=庭の植物が覚えている約束
+dialogueSource=PythonAPI
+PASS busy guard, one charge, generated choice, one resolution

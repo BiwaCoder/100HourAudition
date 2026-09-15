@@ -1,0 +1,1749 @@
+{
+  "entries": [
+    {
+      "key": "start.begin",
+      "ja": "ゲームを始める",
+      "en": "Begin"
+    },
+    {
+      "key": "mansion.status",
+      "ja": "AGI {0}/8   ·   集中 {1}/3   ·   信頼 {2}   ·   緊張 {3}/100   ·   {4}",
+      "en": "AGI {0}/8   ·   Focus {1}/3   ·   Trust {2}   ·   Stress {3}/100   ·   {4}"
+    },
+    {
+      "key": "mansion.status.communication",
+      "ja": "距離 {0}   好感度 {1}   相互理解 {2}/100\n会話 {3}/4   ふたりの記憶 {4}件   集中 {6}/3   AI {5}/12",
+      "en": "Distance {0}   Trust {1}   Understanding {2}/100\nTurn {3}/4   Memories {4}   Focus {6}/3   AI {5}/12"
+    },
+    {
+      "key": "{0}です、伝えそびれていました。",
+      "ja": "{0}です、伝えそびれていました。",
+      "en": "I'm {0}. I forgot to say so earlier."
+    },
+    {
+      "key": "{0}さん、ですよね。{1}がお好きなんですね。",
+      "ja": "{0}さん、ですよね。{1}がお好きなんですね。",
+      "en": "You're {0}, right? You like {1}."
+    },
+    {
+      "key": "{0}です。{1}が好きです。",
+      "ja": "{0}です。{1}が好きです。",
+      "en": "I'm {0}. I like {1}."
+    },
+    {
+      "key": "{0}さん",
+      "ja": "{0}さん",
+      "en": "{0}"
+    },
+    {
+      "key": "まだうまく話せないけど、好きなことから伝えたいです。",
+      "ja": "まだうまく話せないけど、好きなことから伝えたいです。",
+      "en": "I can't speak smoothly yet, but I want to start with what I like."
+    },
+    {
+      "key": "声が出せて、よかった。今日は、よろしくお願いします。",
+      "ja": "声が出せて、よかった。今日は、よろしくお願いします。",
+      "en": "I'm glad I could speak up. Nice to meet you today."
+    },
+    {
+      "key": "目が合って、きれいだなって思ってしまった。",
+      "ja": "目が合って、きれいだなって思ってしまった。",
+      "en": "Our eyes met, and I couldn't help thinking how pretty you are."
+    },
+    {
+      "key": "そういうところ、素敵だなと思う。",
+      "ja": "そういうところ、素敵だなと思う。",
+      "en": "I think that side of you is wonderful."
+    },
+    {
+      "key": "こういう時間、少し特別に感じてる。",
+      "ja": "こういう時間、少し特別に感じてる。",
+      "en": "This time together feels a little special."
+    },
+    {
+      "key": "今……ちょっとドキドキしてない？",
+      "ja": "今……ちょっとドキドキしてない？",
+      "en": "Aren't you a little nervous right now...?"
+    },
+    {
+      "key": "素直な気持ちを、伝えてみる。",
+      "ja": "素直な気持ちを、伝えてみる。",
+      "en": "I'll try to tell you how I honestly feel."
+    },
+    {
+      "key": "少し、手を繋いでもいいですか。",
+      "ja": "少し、手を繋いでもいいですか。",
+      "en": "Would it be alright if we held hands for a moment?"
+    },
+    {
+      "key": "終わったあとも、一緒に歩いてみませんか？",
+      "ja": "終わったあとも、一緒に歩いてみませんか？",
+      "en": "Would you like to keep walking together after this ends?"
+    },
+    {
+      "key": "同じ話ができるの、うれしいです。",
+      "ja": "同じ話ができるの、うれしいです。",
+      "en": "I'm happy we can talk about the same things."
+    },
+    {
+      "key": "今の笑顔、ちょっと……ドキッとしました。",
+      "ja": "今の笑顔、ちょっと……ドキッとしました。",
+      "en": "That smile just now... it caught me off guard a little."
+    },
+    {
+      "key": "✓ 褒め言葉が届いた。表情がやわらいだ。",
+      "ja": "✓ 褒め言葉が届いた。表情がやわらいだ。",
+      "en": "✓ The compliment landed. Their expression softened."
+    },
+    {
+      "key": "△ 少し照れさせただけで、空気は変わらなかった。",
+      "ja": "△ 少し照れさせただけで、空気は変わらなかった。",
+      "en": "△ It only made them a little shy. The mood didn't really shift."
+    },
+    {
+      "key": "✓ 褒め言葉が届いた。\n",
+      "ja": "✓ 褒め言葉が届いた。\n",
+      "en": "✓ The compliment landed.\n"
+    },
+    {
+      "key": "△ 少し照れさせただけで終わった。\n",
+      "ja": "△ 少し照れさせただけで終わった。\n",
+      "en": "△ It only made them a little shy.\n"
+    },
+    {
+      "key": "💗 ドキッとさせた！ファーストパート・クリア！",
+      "ja": "💗 ドキッとさせた！ファーストパート・クリア！",
+      "en": "💗 Their heart skipped a beat! First Part clear!"
+    },
+    {
+      "key": "△ 空気は変わったけど、決め手には欠けた。もう一度チャンスを探ろう。",
+      "ja": "△ 空気は変わったけど、決め手には欠けた。もう一度チャンスを探ろう。",
+      "en": "△ The mood shifted, but it wasn't quite enough. Look for another chance."
+    },
+    {
+      "key": "💗 ドキッとさせた！ファーストパート・クリア！\n",
+      "ja": "💗 ドキッとさせた！ファーストパート・クリア！\n",
+      "en": "💗 Their heart skipped a beat! First Part clear!\n"
+    },
+    {
+      "key": "△ 決め手には欠けた。もう一押し。\n",
+      "ja": "△ 決め手には欠けた。もう一押し。\n",
+      "en": "△ Not quite enough. One more push.\n"
+    },
+    {
+      "key": "◎ 手ごたえ十分",
+      "ja": "◎ 手ごたえ十分",
+      "en": "◎ A strong reaction"
+    },
+    {
+      "key": "○ 順調に進んでる",
+      "ja": "○ 順調に進んでる",
+      "en": "○ Going smoothly"
+    },
+    {
+      "key": "△ 反応は控えめ",
+      "ja": "△ 反応は控えめ",
+      "en": "△ A muted reaction"
+    },
+    {
+      "key": "{0}の椅子にだけ、スポットライトが残らない。拍手はすぐ次の話題へ流れていく。",
+      "ja": "{0}の椅子にだけ、スポットライトが残らない。拍手はすぐ次の話題へ流れていく。",
+      "en": "The spotlight never lingers on {0}'s seat. The applause quickly moves on to the next topic."
+    },
+    {
+      "key": "{0}は最後まで微笑んでいた。カメラが離れても、その微笑みだけがしばらく画面に残る。",
+      "ja": "{0}は最後まで微笑んでいた。カメラが離れても、その微笑みだけがしばらく画面に残る。",
+      "en": "{0} kept smiling until the end. Even after the camera pulls away, that smile lingers on screen a while longer."
+    },
+    {
+      "key": "{0}が舞台袖へ消えていく。誰も呼び止めなかった。窓の外は、もう暗い。",
+      "ja": "{0}が舞台袖へ消えていく。誰も呼び止めなかった。窓の外は、もう暗い。",
+      "en": "{0} disappears into the wings. No one calls them back. Outside the window, it is already dark."
+    },
+    {
+      "key": "最初の名乗りは丁寧でしたが、少し硬く聞こえたかもしれません。今度はもう少し肩の力を抜いて、相手の反応を見ながら話してみましょう。",
+      "ja": "最初の名乗りは丁寧でしたが、少し硬く聞こえたかもしれません。今度はもう少し肩の力を抜いて、相手の反応を見ながら話してみましょう。",
+      "en": "Your first introduction was polite, but may have sounded a bit stiff. This time, try relaxing a little and watching how they react as you speak."
+    },
+    {
+      "key": "元気な挨拶は好印象でしたが、名前を伝えそびれていました。今度は挨拶のすぐあとに、さらっと名乗ってみましょう。",
+      "ja": "元気な挨拶は好印象でしたが、名前を伝えそびれていました。今度は挨拶のすぐあとに、さらっと名乗ってみましょう。",
+      "en": "Your cheerful greeting made a good impression, but you forgot to give your name. This time, try introducing yourself right after you say hello."
+    },
+    {
+      "key": "見た目を褒める一言は攻めた選択でした。ただ初対面ではやや踏み込みすぎたかもしれません。今度はまず名乗ってから、少しずつ距離を縮めていきましょう。",
+      "ja": "見た目を褒める一言は攻めた選択でした。ただ初対面ではやや踏み込みすぎたかもしれません。今度はまず名乗ってから、少しずつ距離を縮めていきましょう。",
+      "en": "Complimenting their looks was a bold choice. It may have been a bit much for a first meeting, though. This time, introduce yourself first, then close the distance step by step."
+    },
+    {
+      "key": "前回の第一印象は、うまく届きませんでした。今度は、名乗る→相手の好きなものを聞く→気持ちを伝える、の順で進めてみましょう。",
+      "ja": "前回の第一印象は、うまく届きませんでした。今度は、名乗る→相手の好きなものを聞く→気持ちを伝える、の順で進めてみましょう。",
+      "en": "Last time, your first impression didn't quite land. This time, try the order: introduce yourself → ask what they like → share how you feel."
+    },
+    {
+      "key": "名前は、とても大切なのです！",
+      "ja": "名前は、とても大切なのです！",
+      "en": "A name is very important, you know!"
+    },
+    {
+      "key": "呼ぶだけで注意を引けて、好感度も上がるのです。まずは名前を聞いてみるのですよ！",
+      "ja": "呼ぶだけで注意を引けて、好感度も上がるのです。まずは名前を聞いてみるのですよ！",
+      "en": "Just saying it gets their attention and raises trust, you know. First, try asking their name!"
+    },
+    {
+      "key": "自分の名前も、伝えてみるのです！",
+      "ja": "自分の名前も、伝えてみるのです！",
+      "en": "Try telling them your name too, you know!"
+    },
+    {
+      "key": "相手の名前を呼べるようになったら、自分のこともさらっと名乗るのです。",
+      "ja": "相手の名前を呼べるようになったら、自分のこともさらっと名乗るのです。",
+      "en": "Now that you can say their name, casually introduce yourself too, you know."
+    },
+    {
+      "key": "ちょっと身構えられてる気がするのです……",
+      "ja": "ちょっと身構えられてる気がするのです……",
+      "en": "It feels like they're a little on guard, you know..."
+    },
+    {
+      "key": "褒めるときは、名前を添えるのです！",
+      "ja": "褒めるときは、名前を添えるのです！",
+      "en": "When you compliment them, add their name, you know!"
+    },
+    {
+      "key": "名前を読んで、会話するのです！",
+      "ja": "名前を読んで、会話するのです！",
+      "en": "Say their name as you talk, you know!"
+    },
+    {
+      "key": "名前は大切です。呼ぶだけで注意を引けて、好感度も上がります。褒めるときも、名前を添えてみてください。",
+      "ja": "名前は大切です。呼ぶだけで注意を引けて、好感度も上がります。褒めるときも、名前を添えてみてください。",
+      "en": "Names matter. Just saying a name catches attention and raises trust. Try adding their name when you compliment them, too."
+    },
+    {
+      "key": "まだ、よく分からないこと",
+      "ja": "まだ、よく分からないこと",
+      "en": "something you don't know yet"
+    },
+    {
+      "key": "こちらが、",
+      "ja": "こちらが、",
+      "en": "This is "
+    },
+    {
+      "key": "さん。\n好きなものは、",
+      "ja": "さん。\n好きなものは、",
+      "en": ".\nWhat they like: "
+    },
+    {
+      "key": "{0}との距離は、まだ遠い。\n名前も、心も、まだ届いていない。",
+      "ja": "{0}との距離は、まだ遠い。\n名前も、心も、まだ届いていない。",
+      "en": "There is still distance between you and {0}. Neither your name nor your feelings have reached them yet."
+    },
+    {
+      "key": "{0}が、話の糸口を差し出してきた。\nこの言葉を、どう受ける？",
+      "ja": "{0}が、話の糸口を差し出してきた。\nこの言葉を、どう受ける？",
+      "en": "{0} has offered you an opening. How will you respond?"
+    },
+    {
+      "key": "繋いだ手の感触が、残っている。",
+      "ja": "繋いだ手の感触が、残っている。",
+      "en": "The warmth of their hand still lingers."
+    },
+    {
+      "key": "笑顔の余韻が、まだ胸にある。",
+      "ja": "笑顔の余韻が、まだ胸にある。",
+      "en": "The warmth of their smile still lingers in your chest."
+    },
+    {
+      "key": "「{0}」が、ふたりの共通の話になった。",
+      "ja": "「{0}」が、ふたりの共通の話になった。",
+      "en": "“{0}” has become something you both share."
+    },
+    {
+      "key": "{0}の返事は丁寧だけれど、まだ壁がある。",
+      "ja": "{0}の返事は丁寧だけれど、まだ壁がある。",
+      "en": "{0} answers politely, but a wall still remains."
+    },
+    {
+      "key": "同じものが、好きだった。目が合って、少しだけ息が止まった。",
+      "ja": "同じものが、好きだった。目が合って、少しだけ息が止まった。",
+      "en": "You liked the same thing. Your eyes met, and your breath caught for a moment."
+    },
+    {
+      "key": "相手が、ふっと笑った。胸の奥が、小さく鳴る。",
+      "ja": "相手が、ふっと笑った。胸の奥が、小さく鳴る。",
+      "en": "They smiled, just for a moment. Something inside your chest gave a small flutter."
+    },
+    {
+      "key": "指先が触れた。熱い。離したくない。",
+      "ja": "指先が触れた。熱い。離したくない。",
+      "en": "Your fingertips touched. It's warm. You don't want to let go."
+    },
+    {
+      "key": "AIを使わず、話す",
+      "ja": "AIを使わず、話す",
+      "en": "Speak without AI"
+    },
+    {
+      "key": "話を遮られそう。相手の言葉を聞きながら、話すタイミングを探そう。",
+      "ja": "話を遮られそう。相手の言葉を聞きながら、話すタイミングを探そう。",
+      "en": "You might get interrupted. Listen to them and look for your moment to speak."
+    },
+    {
+      "key": "手が、まだ熱い。次の一歩が、怖いみたいに嬉しい。",
+      "ja": "手が、まだ熱い。次の一歩が、怖いみたいに嬉しい。",
+      "en": "Your hand is still warm. The next step feels almost frightening—and happy."
+    },
+    {
+      "key": "今の笑顔が、頭から消えない。なんて返そう。",
+      "ja": "今の笑顔が、頭から消えない。なんて返そう。",
+      "en": "That smile won't leave your mind. What should you say back?"
+    },
+    {
+      "key": "「{0}」が、ふたりのあいだにある。もう少し、重ねたい。",
+      "ja": "「{0}」が、ふたりのあいだにある。もう少し、重ねたい。",
+      "en": "“{0}” now sits between the two of you. You want to build on it a little more."
+    },
+    {
+      "key": "まだ、胸がざわつく。名前も、うまく言えない。",
+      "ja": "まだ、胸がざわつく。名前も、うまく言えない。",
+      "en": "Your heart is still restless. You can't even say their name properly yet."
+    },
+    {
+      "key": "+{0} 好感度",
+      "ja": "+{0} 好感度",
+      "en": "+{0} trust"
+    },
+    {
+      "key": "相手にとって",
+      "ja": "相手にとって",
+      "en": "What it meant to them"
+    },
+    {
+      "key": "効果",
+      "ja": "効果",
+      "en": "Effect"
+    },
+    {
+      "key": "職業は{0}。",
+      "ja": "職業は{0}。",
+      "en": "Occupation: {0}."
+    },
+    {
+      "key": "性格の特徴：{0}。",
+      "ja": "性格の特徴：{0}。",
+      "en": "Personality traits: {0}."
+    },
+    {
+      "key": "素直で、まっすぐな人間です。",
+      "ja": "素直で、まっすぐな人間です。",
+      "en": "An honest, straightforward person."
+    },
+    {
+      "key": "あの日、まっすぐ名乗ってくれたことを覚えてる。",
+      "ja": "あの日、まっすぐ名乗ってくれたことを覚えてる。",
+      "en": "I still remember how you introduced yourself so directly that day."
+    },
+    {
+      "key": "あの日の元気な挨拶、実はすごく嬉しかったんだ。",
+      "ja": "あの日の元気な挨拶、実はすごく嬉しかったんだ。",
+      "en": "That cheerful greeting that day actually made me really happy."
+    },
+    {
+      "key": "あの日、見つめられてドキッとしたの、今でも覚えてる。",
+      "ja": "あの日、見つめられてドキッとしたの、今でも覚えてる。",
+      "en": "I still remember how my heart skipped when you looked at me that day."
+    },
+    {
+      "key": "はじめて会った日のことを、時々思い出す。",
+      "ja": "はじめて会った日のことを、時々思い出す。",
+      "en": "I still think back on the day we first met, sometimes."
+    },
+    {
+      "key": "繋いだ手の熱が、まだ消えない。",
+      "ja": "繋いだ手の熱が、まだ消えない。",
+      "en": "The warmth of your hand still hasn't faded."
+    },
+    {
+      "key": "あの時の笑顔が、今もふとした瞬間に浮かぶ。",
+      "ja": "あの時の笑顔が、今もふとした瞬間に浮かぶ。",
+      "en": "That smile still comes to mind, out of nowhere, even now."
+    },
+    {
+      "key": "少しずつ本音で話せるようになった、この百時間が愛おしい。",
+      "ja": "少しずつ本音で話せるようになった、この百時間が愛おしい。",
+      "en": "These hundred hours, where we slowly learned to speak honestly, feel precious to me."
+    },
+    {
+      "key": "まだぎこちなかったけれど、君と話せてよかった。",
+      "ja": "まだぎこちなかったけれど、君と話せてよかった。",
+      "en": "It was still a little awkward, but I'm glad I got to talk with you."
+    },
+    {
+      "key": "百時間で紡いだ、ふたりの会話。次は、番組の外で。",
+      "ja": "百時間で紡いだ、ふたりの会話。次は、番組の外で。",
+      "en": "A hundred hours of conversation, woven together. Next time, beyond the show."
+    },
+    {
+      "key": "「交わした言葉は『ふたりの記憶』に残ります。その記憶を活かし、距離を縮める会話を重ねることが大切。やり方は、私が教えますね」",
+      "ja": "「交わした言葉は『ふたりの記憶』に残ります。その記憶を活かし、距離を縮める会話を重ねることが大切。やり方は、私が教えますね」",
+      "en": "“Every word you exchange stays in your shared memories. What matters most is using them to draw closer through conversation. I'll teach you how.”"
+    },
+    {
+      "key": "SEASIDE MANSION / 海辺の邸宅",
+      "ja": "SEASIDE MANSION / 海辺の邸宅",
+      "en": "SEASIDE MANSION"
+    },
+    {
+      "key": "COURTYARD / 出会いの中庭",
+      "ja": "COURTYARD / 出会いの中庭",
+      "en": "COURTYARD / New encounters"
+    },
+    {
+      "key": "HIMARI / あなたの一歩",
+      "ja": "HIMARI / あなたの一歩",
+      "en": "HIMARI / Your first step"
+    },
+    {
+      "key": "FIRST STEP / あの人のもとへ",
+      "ja": "FIRST STEP / あの人のもとへ",
+      "en": "FIRST STEP / Go and meet him"
+    },
+    {
+      "key": "FIRST CONTACT / 認識できない相手",
+      "ja": "FIRST CONTACT / 認識できない相手",
+      "en": "FIRST CONTACT / An unreadable face"
+    },
+    {
+      "key": "海に抱かれた、白亜の邸宅。\nここで、百時間の恋と駆け引きが幕を開ける。",
+      "ja": "海に抱かれた、白亜の邸宅。\nここで、百時間の恋と駆け引きが幕を開ける。",
+      "en": "A white mansion embraced by the sea.\nOne hundred hours of romance and rivalry begin here."
+    },
+    {
+      "key": "噴水の音が響く中庭と、夕陽を映す大きな窓。\nこの場所には、まだ誰も知らない物語が待っている。",
+      "ja": "噴水の音が響く中庭と、夕陽を映す大きな窓。\nこの場所には、まだ誰も知らない物語が待っている。",
+      "en": "A courtyard filled with the sound of water. Windows catching the sunset.\nAn untold story is waiting here."
+    },
+    {
+      "key": "覚悟と期待を胸に、ひまりは舞台へ。\nあなたの一歩から、このオーディションは動き出す。",
+      "ja": "覚悟と期待を胸に、ひまりは舞台へ。\nあなたの一歩から、このオーディションは動き出す。",
+      "en": "With hope and resolve, Himari steps onto the stage.\nYour first step sets this audition in motion."
+    },
+    {
+      "key": "準備はいい？　レッドカーペットの先へ進もう。",
+      "ja": "準備はいい？　レッドカーペットの先へ進もう。",
+      "en": "Ready? Follow the red carpet."
+    },
+    {
+      "key": "いま、新たな物語が始まる。\n緊張で、相手の表情がうまく読み取れない。",
+      "ja": "いま、新たな物語が始まる。\n緊張で、相手の表情がうまく読み取れない。",
+      "en": "A new story begins.\nYou are too nervous to read his expression."
+    },
+    {
+      "key": "前回の続きから",
+      "ja": "前回の続きから",
+      "en": "Continue saved game"
+    },
+    {
+      "key": "ひまり",
+      "ja": "ひまり",
+      "en": "Himari"
+    },
+    {
+      "key": "沙織",
+      "ja": "沙織",
+      "en": "Saori"
+    },
+    {
+      "key": "神埼沙織",
+      "ja": "神埼沙織",
+      "en": "Saori Kanzaki"
+    },
+    {
+      "key": "星野蓮",
+      "ja": "星野蓮",
+      "en": "Ren Hoshino"
+    },
+    {
+      "key": "雨宮陽翔",
+      "ja": "雨宮陽翔",
+      "en": "Haruto Amamiya"
+    },
+    {
+      "key": "橘蒼真",
+      "ja": "橘蒼真",
+      "en": "Soma Tachibana"
+    },
+    {
+      "key": "松村悠斗",
+      "ja": "松村悠斗",
+      "en": "Yuto Matsumura"
+    },
+    {
+      "key": "雨宮ののか",
+      "ja": "雨宮ののか",
+      "en": "Nonoka Amamiya"
+    },
+    {
+      "key": "星野ひかり",
+      "ja": "星野ひかり",
+      "en": "Hikari Hoshino"
+    },
+    {
+      "key": "受信中 / 認識できない",
+      "ja": "受信中 / 認識できない",
+      "en": "Receiving / Face unreadable"
+    },
+    {
+      "key": "緊張で、相手の顔が読み取れない",
+      "ja": "緊張で、相手の顔が読み取れない",
+      "en": "Too nervous to read his face"
+    },
+    {
+      "key": "UNKNOWN SIGNAL  /  番組の外から",
+      "ja": "UNKNOWN SIGNAL  /  番組の外から",
+      "en": "UNKNOWN SIGNAL / Beyond the broadcast"
+    },
+    {
+      "key": "SAORI  /  AI・未来観測インターフェース",
+      "ja": "SAORI  /  AI・未来観測インターフェース",
+      "en": "SAORI / AI future-observation interface"
+    },
+    {
+      "key": "意識接続 / 不安定",
+      "ja": "意識接続 / 不安定",
+      "en": "Consciousness link / Unstable"
+    },
+    {
+      "key": "距離は、まだ遠い。名前も、好きなことも、何も届いていない。\n胸が高鳴って、うまく目を合わせられない。\nまずは、一歩だけ。",
+      "ja": "距離は、まだ遠い。名前も、好きなことも、何も届いていない。\n胸が高鳴って、うまく目を合わせられない。\nまずは、一歩だけ。",
+      "en": "The distance is still far. Name, likes, nothing has reached them yet.\nYour heart races. You cannot meet their eyes.\nJust one step."
+    },
+    {
+      "key": "まだ遠い",
+      "ja": "まだ遠い",
+      "en": "Still distant"
+    },
+    {
+      "key": "共通の話題",
+      "ja": "共通の話題",
+      "en": "Something in common"
+    },
+    {
+      "key": "笑顔にキュン",
+      "ja": "笑顔にキュン",
+      "en": "A fluttering smile"
+    },
+    {
+      "key": "手をつなぐ",
+      "ja": "手をつなぐ",
+      "en": "Holding hands"
+    },
+    {
+      "key": "心が近い",
+      "ja": "心が近い",
+      "en": "Close at heart"
+    },
+    {
+      "key": "笑顔で、大きく手を振る",
+      "ja": "笑顔で、大きく手を振る",
+      "en": "Smile and wave"
+    },
+    {
+      "key": "静かに、深く一礼する",
+      "ja": "静かに、深く一礼する",
+      "en": "Offer a quiet, respectful bow"
+    },
+    {
+      "key": "自分の童話の話を始める",
+      "ja": "自分の童話の話を始める",
+      "en": "Talk about your fairy tale"
+    },
+    {
+      "key": "実況・天川レン",
+      "ja": "実況・天川レン",
+      "en": "Host / Ren Amakawa"
+    },
+    {
+      "key": "解説・黒瀬ミサ",
+      "ja": "解説・黒瀬ミサ",
+      "en": "Commentator / Misa Kurose"
+    },
+    {
+      "key": "最初の関門は第一印象。四人から一人が、今ここで脱落します。",
+      "ja": "最初の関門は第一印象。四人から一人が、今ここで脱落します。",
+      "en": "The first test is first impressions. One of the four contestants will leave now."
+    },
+    {
+      "key": "第一印象だけでは、その人のすべては分かりません。\nそれでも番組は、最初の一人を選びます。",
+      "ja": "第一印象だけでは、その人のすべては分かりません。\nそれでも番組は、最初の一人を選びます。",
+      "en": "A first impression cannot tell us everything about a person.\nStill, the show will choose someone to leave."
+    },
+    {
+      "key": "選考を見届ける",
+      "ja": "選考を見届ける",
+      "en": "Watch the decision"
+    },
+    {
+      "key": "ON AIR / 最初の脱落",
+      "ja": "ON AIR / 最初の脱落",
+      "en": "ON AIR / First elimination"
+    },
+    {
+      "key": "「最初の脱落者は……ひまりさんです」\nえ……？　まだ、何も伝えられていないのに。\n拍手が遠ざかる。足がすくんで、頭が真っ白になる。この光景だけが消えない。",
+      "ja": "「最初の脱落者は……ひまりさんです」\nえ……？　まだ、何も伝えられていないのに。\n拍手が遠ざかる。足がすくんで、頭が真っ白になる。この光景だけが消えない。",
+      "en": "“The first contestant to leave is... Himari.”\nWhat...? I have barely said anything.\nThe applause fades. My legs freeze. My mind goes blank. Only this scene remains."
+    },
+    {
+      "key": "暗闇の向こうを、見る",
+      "ja": "暗闇の向こうを、見る",
+      "en": "Look beyond the dark"
+    },
+    {
+      "key": "ひまり / 放送終了の、その先",
+      "ja": "ひまり / 放送終了の、その先",
+      "en": "Himari / Beyond the end of the broadcast"
+    },
+    {
+      "key": "沙織 / AI",
+      "ja": "沙織 / AI",
+      "en": "Saori / AI"
+    },
+    {
+      "key": "地の文",
+      "ja": "地の文",
+      "en": "Narration"
+    },
+    {
+      "key": "次へ",
+      "ja": "次へ",
+      "en": "Next"
+    },
+    {
+      "key": "名前を聞いてみる",
+      "ja": "名前を聞いてみる",
+      "en": "Ask their name"
+    },
+    {
+      "key": "立ちくらみがする。足元が、遠のく。\n暗闇の向こうに、何かが見える。\nこれはいったい……？",
+      "ja": "立ちくらみがする。足元が、遠のく。\n暗闇の向こうに、何かが見える。\nこれはいったい……？",
+      "en": "The world lurches. The ground falls away.\nSomething is visible beyond the dark.\nWhat is this...?"
+    },
+    {
+      "key": "海風の音が戻ってくる。白い邸宅の向こうから、光が差す。\n逆光の中に、誰かが佇んでいる。……女神？",
+      "ja": "海風の音が戻ってくる。白い邸宅の向こうから、光が差す。\n逆光の中に、誰かが佇んでいる。……女神？",
+      "en": "The sea breeze returns. Light spills past the white mansion.\nSomeone stands in its glow. A... goddess?"
+    },
+    {
+      "key": "「聞こえますか。私は沙織。あなたの選択を支援するAIです」\n祈るように重ねた手はそのままに、彼女は静かに目を開く。輪郭が、ひとつに結ばれた。",
+      "ja": "「聞こえますか。私は沙織。あなたの選択を支援するAIです」\n祈るように重ねた手はそのままに、彼女は静かに目を開く。輪郭が、ひとつに結ばれた。",
+      "en": "“Can you hear me? I am Saori, an AI here to support your choices.”\nHer hands remain joined in prayer as she opens her eyes. Her image becomes clear."
+    },
+    {
+      "key": "「私は、この番組の観測記録から状態を推定します。発言を変えた場合の分岐を演算し、結果をフィードバックして予測モデルを更新するのです」",
+      "ja": "「私は、この番組の観測記録から状態を推定します。発言を変えた場合の分岐を演算し、結果をフィードバックして予測モデルを更新するのです」",
+      "en": "“I estimate the current state from the show’s observations. I compute branches for different words, then feed the results back into my prediction model.”"
+    },
+    {
+      "key": "「……難しかったですね。つまりは、タイムリープして、もう一度あなたは挑戦できる、ということです」",
+      "ja": "「……難しかったですね。つまりは、タイムリープして、もう一度あなたは挑戦できる、ということです」",
+      "en": "“...That was difficult, wasn’t it? In other words, you can time-leap, and try again.”"
+    },
+    {
+      "key": "「目的関数を、信頼から組み立てます。でも、人の心を完全に観測することはできません。私の最適解は仮説。あなたが納得する言葉を、試行錯誤で探しましょう」",
+      "ja": "「目的関数を、信頼から組み立てます。でも、人の心を完全に観測することはできません。私の最適解は仮説。あなたが納得する言葉を、試行錯誤で探しましょう」",
+      "en": "“My objective function is built from trust. But I cannot fully observe a human heart. My best answer is a hypothesis. Try again until the words feel right to you.”"
+    },
+    {
+      "key": "「まず、未来観測を一緒に。候補を比較しても、まだ発言は確定しません。他人の視点、偶然の発動、新しいカードは、気になったときにご自身で試してくださいね」",
+      "ja": "「まず、未来観測を一緒に。候補を比較しても、まだ発言は確定しません。他人の視点、偶然の発動、新しいカードは、気になったときにご自身で試してくださいね」",
+      "en": "“Let us observe a future together. Comparing choices does not commit you to speaking. Explore other perspectives, chance events, and new cards whenever you like.”"
+    },
+    {
+      "key": "これは……まだ番組なの？",
+      "ja": "これは……まだ番組なの？",
+      "en": "Is the show... still going?"
+    },
+    {
+      "key": "光の中の声を聞く",
+      "ja": "光の中の声を聞く",
+      "en": "Listen to the voice in the light"
+    },
+    {
+      "key": "自己紹介の前へ、戻る",
+      "ja": "自己紹介の前へ、戻る",
+      "en": "Return to before your introduction"
+    },
+    {
+      "key": "続きを聞く",
+      "ja": "続きを聞く",
+      "en": "Keep listening"
+    },
+    {
+      "key": "沙織 / 分岐の起点",
+      "ja": "沙織 / 分岐の起点",
+      "en": "Saori / A branching point"
+    },
+    {
+      "key": "さきほどの脱落は、計算の中にあります。\n今度は場所を選び、未来観測を試してみましょう。",
+      "ja": "さきほどの脱落は、計算の中にあります。\n今度は場所を選び、未来観測を試してみましょう。",
+      "en": "That elimination exists within the calculation.\nChoose a place, then try observing the future."
+    },
+    {
+      "key": "同じ邸宅。同じ出会い。けれど、あなたには記憶がある。",
+      "ja": "同じ邸宅。同じ出会い。けれど、あなたには記憶がある。",
+      "en": "The same mansion. The same encounters. But you remember."
+    },
+    {
+      "key": "どこで、次の言葉を交わしますか？",
+      "ja": "どこで、次の言葉を交わしますか？",
+      "en": "Where will your next conversation take place?"
+    },
+    {
+      "key": "沙織：右の「未来観測」を押してみてください。発言せずに候補を比較できます。",
+      "ja": "沙織：右の「未来観測」を押してみてください。発言せずに候補を比較できます。",
+      "en": "Saori: Select “Observe future” on the right. Compare choices without speaking."
+    },
+    {
+      "key": "沙織：印は予測です。納得できる言葉を選んでください。",
+      "ja": "沙織：印は予測です。納得できる言葉を選んでください。",
+      "en": "Saori: The mark is a prediction. Choose words that feel right."
+    },
+    {
+      "key": "沙織 / 新しい言葉の可能性",
+      "ja": "沙織 / 新しい言葉の可能性",
+      "en": "Saori / New possibilities"
+    },
+    {
+      "key": "気になる一枚を選んでください。取得したカードは、巻き戻した先にも持っていけます。",
+      "ja": "気になる一枚を選んでください。取得したカードは、巻き戻した先にも持っていけます。",
+      "en": "Choose a card that interests you. Cards you acquire stay with you after a time leap."
+    },
+    {
+      "key": "LIVE / 選考結果",
+      "ja": "LIVE / 選考結果",
+      "en": "LIVE / Results"
+    },
+    {
+      "key": "あなたの言葉が、ひとつの未来を変えた。",
+      "ja": "あなたの言葉が、ひとつの未来を変えた。",
+      "en": "Your words have changed one possible future."
+    },
+    {
+      "key": "最後の言葉を聞く",
+      "ja": "最後の言葉を聞く",
+      "en": "Hear the final words"
+    },
+    {
+      "key": "次の出会いへ",
+      "ja": "次の出会いへ",
+      "en": "To the next encounter"
+    },
+    {
+      "key": "沙織 / フィードバック",
+      "ja": "沙織 / フィードバック",
+      "en": "Saori / Feedback"
+    },
+    {
+      "key": "この結果も観測できました。記憶とデッキを持ち、次の試行へ戻れます。",
+      "ja": "この結果も観測できました。記憶とデッキを持ち、次の試行へ戻れます。",
+      "en": "We have observed this outcome too. Return for another attempt with your memories and deck."
+    },
+    {
+      "key": "記憶を持って、もう一度",
+      "ja": "記憶を持って、もう一度",
+      "en": "Try again with your memories"
+    },
+    {
+      "key": "ここで物語を終える",
+      "ja": "ここで物語を終える",
+      "en": "End your story here"
+    },
+    {
+      "key": "物語を終える",
+      "ja": "物語を終える",
+      "en": "End the story"
+    },
+    {
+      "key": "初めから遊ぶ",
+      "ja": "初めから遊ぶ",
+      "en": "Play from the beginning"
+    },
+    {
+      "key": "ライトが消える。でも、知ったことは消えない。",
+      "ja": "ライトが消える。でも、知ったことは消えない。",
+      "en": "The lights go out. What you learned remains."
+    },
+    {
+      "key": "「君の言葉が、次の物語になった。一緒に続きを作りたい」\n百時間の終わりに、あなたの名前が呼ばれた。",
+      "ja": "「君の言葉が、次の物語になった。一緒に続きを作りたい」\n百時間の終わりに、あなたの名前が呼ばれた。",
+      "en": "“Your words became our next story. I want to keep creating it with you.”\nAt the end of one hundred hours, your name is called."
+    },
+    {
+      "key": "観測実習：まだ発言も時間も進んでいません。［予測］と他の候補を比較して、あなたの言葉を選んでください。\n実習補給 +6 AGI（今回のみ）。",
+      "ja": "観測実習：まだ発言も時間も進んでいません。［予測］と他の候補を比較して、あなたの言葉を選んでください。\n実習補給 +6 AGI（今回のみ）。",
+      "en": "Practice: No words have been spoken and no time has passed. Compare [Forecast] with the other choices.\nTutorial recharge: +6 AGI, once only."
+    },
+    {
+      "key": "観測は現在の条件での候補比較です。手札や天候を変えると予測印は消えます。巻き戻しは章の入口へ。記憶・取得カードを保持し、AGI消費は戻りません。",
+      "ja": "観測は現在の条件での候補比較です。手札や天候を変えると予測印は消えます。巻き戻しは章の入口へ。記憶・取得カードを保持し、AGI消費は戻りません。",
+      "en": "Observation compares choices under current conditions. Changing cards or weather clears the prediction. A time leap returns to the chapter’s start. Memories and acquired cards remain; spent AGI is not refunded."
+    },
+    {
+      "key": "偶然の発動 / 次の発言まで",
+      "ja": "偶然の発動 / 次の発言まで",
+      "en": "Trigger chance / Until you next speak"
+    },
+    {
+      "key": "どんなきっかけを、二人の間に起こしますか？",
+      "ja": "どんなきっかけを、二人の間に起こしますか？",
+      "en": "What chance event will bring you closer?"
+    },
+    {
+      "key": "戻る",
+      "ja": "戻る",
+      "en": "Back"
+    },
+    {
+      "key": "晴れ",
+      "ja": "晴れ",
+      "en": "Clear"
+    },
+    {
+      "key": "雨",
+      "ja": "雨",
+      "en": "Rain"
+    },
+    {
+      "key": "風",
+      "ja": "風",
+      "en": "Wind"
+    },
+    {
+      "key": "霧",
+      "ja": "霧",
+      "en": "Fog"
+    },
+    {
+      "key": "停電",
+      "ja": "停電",
+      "en": "Blackout"
+    },
+    {
+      "key": "晴れ / AGI 2",
+      "ja": "晴れ / AGI 2",
+      "en": "Clear / 2 AGI"
+    },
+    {
+      "key": "雨 / AGI 2",
+      "ja": "雨 / AGI 2",
+      "en": "Rain / 2 AGI"
+    },
+    {
+      "key": "風 / AGI 2",
+      "ja": "風 / AGI 2",
+      "en": "Wind / 2 AGI"
+    },
+    {
+      "key": "霧 / AGI 2",
+      "ja": "霧 / AGI 2",
+      "en": "Fog / 2 AGI"
+    },
+    {
+      "key": "停電 / AGI 2",
+      "ja": "停電 / AGI 2",
+      "en": "Blackout / 2 AGI"
+    },
+    {
+      "key": "沙織と未来観測を試す",
+      "ja": "沙織と未来観測を試す",
+      "en": "Observe a future with Saori"
+    },
+    {
+      "key": "AI / 自由に試してみる",
+      "ja": "AI / 自由に試してみる",
+      "en": "AI / Explore your abilities"
+    },
+    {
+      "key": "未来観測 / 2 AGI",
+      "ja": "未来観測 / 2 AGI",
+      "en": "Observe future / 2 AGI"
+    },
+    {
+      "key": "他人の視点 / 1 AGI",
+      "ja": "他人の視点 / 1 AGI",
+      "en": "Another perspective / 1 AGI"
+    },
+    {
+      "key": "偶然の発動 / 2 AGI",
+      "ja": "偶然の発動 / 2 AGI",
+      "en": "Trigger chance / 2 AGI"
+    },
+    {
+      "key": "新しいカード / 1 AGI",
+      "ja": "新しいカード / 1 AGI",
+      "en": "New card / 1 AGI"
+    },
+    {
+      "key": "タイムリープ / 3 AGI",
+      "ja": "タイムリープ / 3 AGI",
+      "en": "Time leap / 3 AGI"
+    },
+    {
+      "key": "能力について",
+      "ja": "能力について",
+      "en": "About abilities"
+    },
+    {
+      "key": "記憶・デッキを見る →",
+      "ja": "記憶・デッキを見る →",
+      "en": "Memories & deck →"
+    },
+    {
+      "key": "まだ記憶がありません",
+      "ja": "まだ記憶がありません",
+      "en": "No memories yet"
+    },
+    {
+      "key": "前の記憶",
+      "ja": "前の記憶",
+      "en": "Previous memory"
+    },
+    {
+      "key": "次の記憶",
+      "ja": "次の記憶",
+      "en": "Next memory"
+    },
+    {
+      "key": "記憶から尋ねる / 1集中",
+      "ja": "記憶から尋ねる / 1集中",
+      "en": "Ask from memory / 1 focus"
+    },
+    {
+      "key": "自分の話につなぐ / 1集中",
+      "ja": "自分の話につなぐ / 1集中",
+      "en": "Share your story / 1 focus"
+    },
+    {
+      "key": "この記憶を②に覚える",
+      "ja": "この記憶を②に覚える",
+      "en": "Keep as memory ②"
+    },
+    {
+      "key": "②と結ぶ / 1集中",
+      "ja": "②と結ぶ / 1集中",
+      "en": "Connect to ② / 1 focus"
+    },
+    {
+      "key": "デッキを見る →",
+      "ja": "デッキを見る →",
+      "en": "View deck →"
+    },
+    {
+      "key": "DECK / 所持カード\n左下に一覧を表示しています",
+      "ja": "DECK / 所持カード\n左下に一覧を表示しています",
+      "en": "DECK / Your cards\nListed at the lower left"
+    },
+    {
+      "key": "AI能力に戻る →",
+      "ja": "AI能力に戻る →",
+      "en": "Back to AI abilities →"
+    },
+    {
+      "key": "所持デッキ（巻き戻しで保持）",
+      "ja": "所持デッキ（巻き戻しで保持）",
+      "en": "Your deck (kept after a time leap)"
+    },
+    {
+      "key": "保存できませんでした。現在のプレイは続けられます。",
+      "ja": "保存できませんでした。現在のプレイは続けられます。",
+      "en": "Could not save. You can continue playing."
+    },
+    {
+      "key": "続きから再開できません",
+      "ja": "続きから再開できません",
+      "en": "Could not resume the saved game"
+    },
+    {
+      "key": "静かな紅茶",
+      "ja": "静かな紅茶",
+      "en": "Quiet Tea"
+    },
+    {
+      "key": "緊張を6防ぎ、次の一言に信頼+2。",
+      "ja": "緊張を6防ぎ、次の一言に信頼+2。",
+      "en": "Block 6 stress. Gain 2 trust on your next line."
+    },
+    {
+      "key": "物語の糸",
+      "ja": "物語の糸",
+      "en": "Threads of a Story"
+    },
+    {
+      "key": "創作の話なら信頼+7＋同調Lv。別の話では+1。",
+      "ja": "創作の話なら信頼+7＋同調Lv。別の話では+1。",
+      "en": "Creative talk: +7 trust and resonance level. Otherwise +1."
+    },
+    {
+      "key": "純粋さのかけら",
+      "ja": "純粋さのかけら",
+      "en": "A Fragment of Sincerity"
+    },
+    {
+      "key": "純粋さ+1。3個以上なら誠実な会話に信頼+6。",
+      "ja": "純粋さ+1。3個以上なら誠実な会話に信頼+6。",
+      "en": "Sincerity +1. With 3 or more, sincere talk gains 6 trust."
+    },
+    {
+      "key": "雨宿りの約束",
+      "ja": "雨宿りの約束",
+      "en": "A Promise in the Rain"
+    },
+    {
+      "key": "次の一言に信頼+3。雨なら+10。",
+      "ja": "次の一言に信頼+3。雨なら+10。",
+      "en": "Next line: +3 trust, or +10 in rain."
+    },
+    {
+      "key": "口調の残響",
+      "ja": "口調の残響",
+      "en": "An Echo of Your Voice"
+    },
+    {
+      "key": "同調Lv+1（周を越えて残る）。緊張を2防ぐ。",
+      "ja": "同調Lv+1（周を越えて残る）。緊張を2防ぐ。",
+      "en": "Resonance level +1, kept across loops. Block 2 stress."
+    },
+    {
+      "key": "好奇心の窓",
+      "ja": "好奇心の窓",
+      "en": "A Window of Curiosity"
+    },
+    {
+      "key": "追加で2枚引く。次の一言に信頼+1。",
+      "ja": "追加で2枚引く。次の一言に信頼+1。",
+      "en": "Draw 2 cards. Your next line gains 1 trust."
+    },
+    {
+      "key": "深呼吸",
+      "ja": "深呼吸",
+      "en": "Deep Breath"
+    },
+    {
+      "key": "緊張−10。落ち着いて、言葉を選び直す。",
+      "ja": "緊張−10。落ち着いて、言葉を選び直す。",
+      "en": "Stress −10. Take your time and choose again."
+    },
+    {
+      "key": "スポットライト",
+      "ja": "スポットライト",
+      "en": "Spotlight"
+    },
+    {
+      "key": "SNSスター+12K。次の発言は緊張+5。",
+      "ja": "SNSスター+12K。次の発言は緊張+5。",
+      "en": "Social stars +12K. Your next line adds 5 stress."
+    },
+    {
+      "key": "記憶の栞",
+      "ja": "記憶の栞",
+      "en": "A Bookmark of Memory"
+    },
+    {
+      "key": "記憶を使った一言なら信頼+7。別の話では+1。",
+      "ja": "記憶を使った一言なら信頼+7。別の話では+1。",
+      "en": "Memory-based talk: +7 trust. Otherwise +1."
+    },
+    {
+      "key": "風のリボン",
+      "ja": "風のリボン",
+      "en": "A Ribbon in the Wind"
+    },
+    {
+      "key": "風なら信頼+8。視点も使っていればさらに+5。通常+2。",
+      "ja": "風なら信頼+8。視点も使っていればさらに+5。通常+2。",
+      "en": "In wind: +8 trust, plus 5 with perspective. Otherwise +2."
+    },
+    {
+      "key": "禁断の告白",
+      "ja": "禁断の告白",
+      "en": "A Forbidden Confession"
+    },
+    {
+      "key": "信頼35以上か純粋さ2以上なら信頼+18。条件未達ならこの周は脱落。",
+      "ja": "信頼35以上か純粋さ2以上なら信頼+18。条件未達ならこの周は脱落。",
+      "en": "Trust 35+ or sincerity 2+: +18 trust. Otherwise eliminated this loop."
+    },
+    {
+      "key": "闇の賭け",
+      "ja": "闇の賭け",
+      "en": "A Wager in the Dark"
+    },
+    {
+      "key": "停電なら信頼+20。条件未達ならこの周は脱落。運命の棘+1。",
+      "ja": "停電なら信頼+20。条件未達ならこの周は脱落。運命の棘+1。",
+      "en": "In a blackout: +20 trust. Otherwise eliminated this loop. Fate thorn +1."
+    },
+    {
+      "key": "ジョイスティックでまっすぐ進み、相手のもとへ。",
+      "ja": "ジョイスティックでまっすぐ進み、相手のもとへ。",
+      "en": "Use the joystick to walk straight ahead and meet him."
+    },
+    {
+      "key": "窓辺で自己紹介 / 創作の話",
+      "ja": "窓辺で自己紹介 / 創作の話",
+      "en": "Meet by the window / Creativity"
+    },
+    {
+      "key": "庭で自己紹介 / 自然の話",
+      "ja": "庭で自己紹介 / 自然の話",
+      "en": "Meet in the garden / Nature"
+    },
+    {
+      "key": "悠斗と共同制作 / 信頼を深める",
+      "ja": "悠斗と共同制作 / 信頼を深める",
+      "en": "Create with Yuto / Build trust"
+    },
+    {
+      "key": "参加者と庭の散歩 / 同盟を結ぶ",
+      "ja": "参加者と庭の散歩 / 同盟を結ぶ",
+      "en": "Walk with a contestant / Build an alliance"
+    },
+    {
+      "key": "告白室 / 視聴者へ届ける",
+      "ja": "告白室 / 視聴者へ届ける",
+      "en": "Confession room / Reach the audience"
+    },
+    {
+      "key": "星空の一対一 / 未来を話す",
+      "ja": "星空の一対一 / 未来を話す",
+      "en": "Under the stars / Your future"
+    },
+    {
+      "key": "雨音の一対一 / 記憶を重ねる",
+      "ja": "雨音の一対一 / 記憶を重ねる",
+      "en": "In the rain / Share memories"
+    },
+    {
+      "key": "こんにちは。少し、お話ししてもいいですか？",
+      "ja": "こんにちは。少し、お話ししてもいいですか？",
+      "en": "Hello. Could we talk for a moment?"
+    },
+    {
+      "key": "ひまりです。小さな生き物と童話が好きです。",
+      "ja": "ひまりです。小さな生き物と童話が好きです。",
+      "en": "I’m Himari. I love little creatures and fairy tales."
+    },
+    {
+      "key": "終わったあとも、一緒に物語を作りませんか？",
+      "ja": "終わったあとも、一緒に物語を作りませんか？",
+      "en": "Shall we keep creating stories together after this?"
+    },
+    {
+      "key": "わたしの童話を、あなたの作品に重ねてみたい。",
+      "ja": "わたしの童話を、あなたの作品に重ねてみたい。",
+      "en": "I’d like to bring my fairy tales into your work."
+    },
+    {
+      "key": "カメラの向こうにも、この気持ちを届けたい。",
+      "ja": "カメラの向こうにも、この気持ちを届けたい。",
+      "en": "I want the people watching to feel this too."
+    },
+    {
+      "key": "その続きを、聞かせてください。",
+      "ja": "その続きを、聞かせてください。",
+      "en": "Please, tell me more."
+    },
+    {
+      "key": "{0}のことを、今日は話してみたい。あなたはどう？",
+      "ja": "{0}のことを、今日は話してみたい。あなたはどう？",
+      "en": "I’d like to talk about {0} today. What about you?"
+    },
+    {
+      "key": "相手の言葉から「{0}」が気になっています。",
+      "ja": "相手の言葉から「{0}」が気になっています。",
+      "en": "Something he said about {0} caught your attention."
+    },
+    {
+      "key": "{0}……そこに惹かれた理由を聞きたい。",
+      "ja": "{0}……そこに惹かれた理由を聞きたい。",
+      "en": "{0}... What drew you to it?"
+    },
+    {
+      "key": "もちろん。声をかけてくれて、うれしい。",
+      "ja": "もちろん。声をかけてくれて、うれしい。",
+      "en": "Of course. I’m glad you came over."
+    },
+    {
+      "key": "ひまりさん。童話が好きなんだね。その見方を聞いてみたい。",
+      "ja": "ひまりさん。童話が好きなんだね。その見方を聞いてみたい。",
+      "en": "Himari. So you like fairy tales. I’d love to hear how you see them."
+    },
+    {
+      "key": "うん、番組が終わっても続きを作ろう。急がず、一緒に。",
+      "ja": "うん、番組が終わっても続きを作ろう。急がず、一緒に。",
+      "en": "Yes. Let’s keep creating after the show. Together, at our own pace."
+    },
+    {
+      "key": "あなたの物語、まずは聞かせて。完成していなくてもいい。",
+      "ja": "あなたの物語、まずは聞かせて。完成していなくてもいい。",
+      "en": "Tell me your story first. It doesn’t have to be finished."
+    },
+    {
+      "key": "見ている人にも、この時間が届くといいね。",
+      "ja": "見ている人にも、この時間が届くといいね。",
+      "en": "I hope the people watching can share this moment."
+    },
+    {
+      "key": "その言葉を拾ってくれたんだね。",
+      "ja": "その言葉を拾ってくれたんだね。",
+      "en": "You noticed those words."
+    },
+    {
+      "key": "{0}には、まだ誰にも話していない思い入れがあるんだ。",
+      "ja": "{0}には、まだ誰にも話していない思い入れがあるんだ。",
+      "en": "{0} means something to me that I haven’t told anyone yet."
+    },
+    {
+      "key": "実は、{0}が今の自分を作った気がする。",
+      "ja": "実は、{0}が今の自分を作った気がする。",
+      "en": "Actually, I think {0} helped make me who I am."
+    },
+    {
+      "key": "最近は、{0}のことをよく考えている。",
+      "ja": "最近は、{0}のことをよく考えている。",
+      "en": "Lately, I’ve been thinking a lot about {0}."
+    },
+    {
+      "key": "未完成のゲーム",
+      "ja": "未完成のゲーム",
+      "en": "an unfinished game"
+    },
+    {
+      "key": "雨音の記憶",
+      "ja": "雨音の記憶",
+      "en": "memories of rain"
+    },
+    {
+      "key": "絵本の結末",
+      "ja": "絵本の結末",
+      "en": "a picture book’s ending"
+    },
+    {
+      "key": "美術館の迷路",
+      "ja": "美術館の迷路",
+      "en": "a maze in an art museum"
+    },
+    {
+      "key": "小さな喫茶店",
+      "ja": "小さな喫茶店",
+      "en": "a little café"
+    },
+    {
+      "key": "舞台袖の緊張",
+      "ja": "舞台袖の緊張",
+      "en": "nerves backstage"
+    },
+    {
+      "key": "歌の練習",
+      "ja": "歌の練習",
+      "en": "singing practice"
+    },
+    {
+      "key": "青いリボン",
+      "ja": "青いリボン",
+      "en": "a blue ribbon"
+    },
+    {
+      "key": "雨の日のカフェ",
+      "ja": "雨の日のカフェ",
+      "en": "a café on a rainy day"
+    },
+    {
+      "key": "旅先の写真",
+      "ja": "旅先の写真",
+      "en": "travel photos"
+    },
+    {
+      "key": "初舞台の失敗",
+      "ja": "初舞台の失敗",
+      "en": "a mistake on a first performance"
+    },
+    {
+      "key": "未完成の展示",
+      "ja": "未完成の展示",
+      "en": "an unfinished exhibition"
+    },
+    {
+      "key": "古い絵本",
+      "ja": "古い絵本",
+      "en": "an old picture book"
+    },
+    {
+      "key": "静かな図書室",
+      "ja": "静かな図書室",
+      "en": "a quiet library"
+    },
+    {
+      "key": "押し花",
+      "ja": "押し花",
+      "en": "pressed flowers"
+    },
+    {
+      "key": "童話",
+      "ja": "童話",
+      "en": "fairy tales"
+    },
+    {
+      "key": "小さな生き物",
+      "ja": "小さな生き物",
+      "en": "little creatures"
+    },
+    {
+      "key": "記憶とデッキ、同調は周を越えて残ります。相手の記憶は巻き戻っています。",
+      "ja": "記憶とデッキ、同調は周を越えて残ります。相手の記憶は巻き戻っています。",
+      "en": "Your memories, deck, and resonance survive the loop. Other people’s memories have reset."
+    },
+    {
+      "key": "タイムリープ。沙織：章の入口へ戻りました。記憶・カードとAGI消費は残ります。言いそびれた言葉を、再配達しましょう。",
+      "ja": "タイムリープ。沙織：章の入口へ戻りました。記憶・カードとAGI消費は残ります。言いそびれた言葉を、再配達しましょう。",
+      "en": "Time leap. Saori: We are back at the chapter’s start. Memories, cards, and spent AGI remain. Try the words you missed."
+    },
+    {
+      "key": "記憶から新しい一言が浮かびました。下の会話選択肢から話せます。",
+      "ja": "記憶から新しい一言が浮かびました。下の会話選択肢から話せます。",
+      "en": "A new line has emerged from your memories. Find it among the conversation choices."
+    },
+    {
+      "key": "「{0}」を準備。このあと選ぶ言葉に作用します。",
+      "ja": "「{0}」を準備。このあと選ぶ言葉に作用します。",
+      "en": "Prepared “{0}”. It will affect the words you choose next."
+    },
+    {
+      "key": "沙織：お待ちください！ 危険札の条件が未達です。このままでは脱落します。まず深呼吸を、ご一緒に……。",
+      "ja": "沙織：お待ちください！ 危険札の条件が未達です。このままでは脱落します。まず深呼吸を、ご一緒に……。",
+      "en": "Saori: Wait! Your risky card’s conditions are not met. This will eliminate you. Let’s take a deep breath..."
+    },
+    {
+      "key": "沙織：次の発言まで、場の条件を変えました。きっかけは、さりげなく。……今の説明は少し目立ちましたね。",
+      "ja": "沙織：次の発言まで、場の条件を変えました。きっかけは、さりげなく。……今の説明は少し目立ちましたね。",
+      "en": "Saori: I changed the conditions until your next line. A subtle nudge... Though that explanation was not very subtle."
+    },
+    {
+      "key": "信頼 +{0}。相手の返答から、新しい話題が浮かびました。",
+      "ja": "信頼 +{0}。相手の返答から、新しい話題が浮かびました。",
+      "en": "Trust +{0}. Their reply opened a new topic."
+    },
+    {
+      "key": "信頼 +{0}。記憶から話をつなぎました。",
+      "ja": "信頼 +{0}。記憶から話をつなぎました。",
+      "en": "Trust +{0}. You connected the conversation through a memory."
+    },
+    {
+      "key": "好感度 +{0}。相手の返答から、新しい話題が浮かびました。",
+      "ja": "好感度 +{0}。相手の返答から、新しい話題が浮かびました。",
+      "en": "Affection +{0}. Their reply opened a new topic."
+    },
+    {
+      "key": "好感度 +{0}。記憶から話をつなぎました。",
+      "ja": "好感度 +{0}。記憶から話をつなぎました。",
+      "en": "Affection +{0}. You connected the conversation through a memory."
+    },
+    {
+      "key": "続き",
+      "ja": "続き",
+      "en": "Next topic"
+    },
+    {
+      "key": "{0}はOUT。残るのは{1}人。",
+      "ja": "{0}はOUT。残るのは{1}人。",
+      "en": "{0} is OUT. {1} contestants remain."
+    },
+    {
+      "key": "記憶 {0}/{1}",
+      "ja": "記憶 {0}/{1}",
+      "en": "Memory {0}/{1}"
+    },
+    {
+      "key": "AI-0と、新しい物語をはじめる",
+      "ja": "AI-0と、新しい物語をはじめる",
+      "en": "Begin a new story with AI-0"
+    },
+    {
+      "key": "GPT-LIVE 1 / 自然な音声会話",
+      "ja": "GPT-LIVE 1 / 自然な音声会話",
+      "en": "GPT-LIVE 1 / Natural conversation"
+    },
+    {
+      "key": "AI-0と話す",
+      "ja": "AI-0と話す",
+      "en": "Talk to AI-0"
+    },
+    {
+      "key": "目安90秒 / 上限120秒。会話の途中でも話しかけられます。",
+      "ja": "目安90秒 / 上限120秒。会話の途中でも話しかけられます。",
+      "en": "About 90 seconds / 2 minutes max. You can speak at any time."
+    },
+    {
+      "key": "AI-0に接続しています……",
+      "ja": "AI-0に接続しています……",
+      "en": "Connecting to AI-0..."
+    },
+    {
+      "key": "AI-0との出会い",
+      "ja": "AI-0との出会い",
+      "en": "Meet AI-0"
+    },
+    {
+      "key": "今の内容で作成する",
+      "ja": "今の内容で作成する",
+      "en": "Create with what we have"
+    },
+    {
+      "key": "会話をまとめています……",
+      "ja": "会話をまとめています……",
+      "en": "Wrapping up our conversation..."
+    },
+    {
+      "key": "自由に話しかけてください。",
+      "ja": "自由に話しかけてください。",
+      "en": "Speak freely whenever you like."
+    },
+    {
+      "key": "会話中 / マイクON",
+      "ja": "会話中 / マイクON",
+      "en": "Conversation / MIC ON"
+    },
+    {
+      "key": "生成に失敗しました。",
+      "ja": "生成に失敗しました。",
+      "en": "Could not create your character."
+    },
+    {
+      "key": "GPT-LIVE 1 / 完了",
+      "ja": "GPT-LIVE 1 / 完了",
+      "en": "GPT-LIVE 1 / Complete"
+    },
+    {
+      "key": "キャラクターを作成し、JSONファイルに保存しました。",
+      "ja": "キャラクターを作成し、JSONファイルに保存しました。",
+      "en": "Your character has been created and saved as a JSON file."
+    },
+    {
+      "key": "JSONファイルを保存できませんでした。",
+      "ja": "JSONファイルを保存できませんでした。",
+      "en": "Could not save the JSON file."
+    },
+    {
+      "key": "GPT-LIVE 1 / 接続を確認",
+      "ja": "GPT-LIVE 1 / 接続を確認",
+      "en": "GPT-LIVE 1 / Check connection"
+    },
+    {
+      "key": "接続の制限時間に達したため停止しました。",
+      "ja": "接続の制限時間に達したため停止しました。",
+      "en": "The session time limit was reached. The connection has closed."
+    },
+    {
+      "key": "マイクの使用を許可してください。",
+      "ja": "マイクの使用を許可してください。",
+      "en": "Please allow microphone access."
+    },
+    {
+      "key": "音声接続が終了しました。もう一度お試しください。",
+      "ja": "音声接続が終了しました。もう一度お試しください。",
+      "en": "The voice connection has ended. Please try again."
+    },
+    {
+      "key": "接続がタイムアウトしました。",
+      "ja": "接続がタイムアウトしました。",
+      "en": "The connection timed out."
+    },
+    {
+      "key": "GPT-Liveとの接続が切れました。PythonAPIを確認してください。",
+      "ja": "GPT-Liveとの接続が切れました。PythonAPIを確認してください。",
+      "en": "GPT-Live disconnected. Please check the PythonAPI server."
+    },
+    {
+      "key": "音声送信が追いつかないため接続を停止しました。",
+      "ja": "音声送信が追いつかないため接続を停止しました。",
+      "en": "The connection closed because audio could not be sent fast enough."
+    },
+    {
+      "key": "音声を送信できませんでした。",
+      "ja": "音声を送信できませんでした。",
+      "en": "Could not send microphone audio."
+    },
+    {
+      "key": "キャラクターJSONをコピーしました。",
+      "ja": "キャラクターJSONをコピーしました。",
+      "en": "Character JSON copied."
+    },
+    {
+      "key": "音声でキャラクターを作る",
+      "ja": "音声でキャラクターを作る",
+      "en": "Create a character with your voice"
+    },
+    {
+      "key": "もう一度作る",
+      "ja": "もう一度作る",
+      "en": "Create another character"
+    },
+    {
+      "key": "最初からやり直す",
+      "ja": "最初からやり直す",
+      "en": "Try again"
+    },
+    {
+      "key": "あなたの声から、新しいキャラクターへ",
+      "ja": "あなたの声から、新しいキャラクターへ",
+      "en": "Your voice. A new character."
+    },
+    {
+      "key": "接続を確認してください",
+      "ja": "接続を確認してください",
+      "en": "Please check your connection"
+    },
+    {
+      "key": "キャラクターが完成しました",
+      "ja": "キャラクターが完成しました",
+      "en": "Your character is ready"
+    },
+    {
+      "key": "会話から、キャラクターを作っています",
+      "ja": "会話から、キャラクターを作っています",
+      "en": "Bringing your character to life"
+    },
+    {
+      "key": "AI-0とのキャラクターづくり",
+      "ja": "AI-0とのキャラクターづくり",
+      "en": "Create your character with AI-0"
+    },
+    {
+      "key": "マイクチェック → 会話 → 完成",
+      "ja": "マイクチェック → 会話 → 完成",
+      "en": "Microphone check → Conversation → Your character"
+    },
+    {
+      "key": "準備中",
+      "ja": "準備中",
+      "en": "Getting ready"
+    },
+    {
+      "key": "完了",
+      "ja": "完了",
+      "en": "Complete"
+    },
+    {
+      "key": "最後のステップ / JSON生成",
+      "ja": "最後のステップ / JSON生成",
+      "en": "Final step / Creating JSON"
+    },
+    {
+      "key": "再接続できます",
+      "ja": "再接続できます",
+      "en": "You can reconnect"
+    },
+    {
+      "key": "マイクチェック / 回答には含めません",
+      "ja": "マイクチェック / 回答には含めません",
+      "en": "Microphone check / Not part of your answers"
+    },
+    {
+      "key": "声を文字にできました。表示内容が合っていれば、質問へ進みましょう。",
+      "ja": "声を文字にできました。表示内容が合っていれば、質問へ進みましょう。",
+      "en": "Your voice was transcribed. If the text looks right, let's continue."
+    },
+    {
+      "key": "ここに、あなたが話した内容が表示されます。",
+      "ja": "ここに、あなたが話した内容が表示されます。",
+      "en": "What you say will appear here."
+    },
+    {
+      "key": "マイクOK・質問へ",
+      "ja": "マイクOK・質問へ",
+      "en": "Microphone ready / Continue"
+    },
+    {
+      "key": "この回答で、次の質問へ",
+      "ja": "この回答で、次の質問へ",
+      "en": "Confirm and continue"
+    },
+    {
+      "key": "この会話から作成する",
+      "ja": "この会話から作成する",
+      "en": "Create from these answers"
+    },
+    {
+      "key": "開始すると、相手から日本語で案内します。",
+      "ja": "開始すると、相手から日本語で案内します。",
+      "en": "AI-0 will greet you when you start."
+    },
+    {
+      "key": "回答をもとにした設定です。JSONをコピーできます。",
+      "ja": "回答をもとにした設定です。JSONをコピーできます。",
+      "en": "Created from your answers. You can copy the JSON."
+    },
+    {
+      "key": "少しお待ちください。マイクは停止しています。",
+      "ja": "少しお待ちください。マイクは停止しています。",
+      "en": "One moment. Your microphone is off."
+    },
+    {
+      "key": "接続を準備しています……",
+      "ja": "接続を準備しています……",
+      "en": "Preparing the connection..."
+    },
+    {
+      "key": "相手が話しています。案内が終わるまでお待ちください。",
+      "ja": "相手が話しています。案内が終わるまでお待ちください。",
+      "en": "AI-0 is speaking. Please listen to the introduction."
+    },
+    {
+      "key": "マイク受付中 / 日本語で話してください。",
+      "ja": "マイク受付中 / 日本語で話してください。",
+      "en": "Microphone on / Please speak in English."
+    },
+    {
+      "key": "聞き取った内容を確認してください。違っていたら言い直せます。",
+      "ja": "聞き取った内容を確認してください。違っていたら言い直せます。",
+      "en": "Check the transcript. You can try again if needed."
+    },
+    {
+      "key": "声が入っています",
+      "ja": "声が入っています",
+      "en": "Receiving your voice"
+    },
+    {
+      "key": "マイク受付中",
+      "ja": "マイク受付中",
+      "en": "Microphone on"
+    },
+    {
+      "key": "声の記憶が、ひとつの輪郭になる。",
+      "ja": "声の記憶が、ひとつの輪郭になる。",
+      "en": "Your voice. An emerging identity."
+    },
+    {
+      "key": "ここから、新しい物語がはじまる。",
+      "ja": "ここから、新しい物語がはじまる。",
+      "en": "A new story begins here."
+    },
+    {
+      "key": "INPUT / あなたの声",
+      "ja": "INPUT / あなたの声",
+      "en": "INPUT / Your voice"
+    },
+    {
+      "key": "OUTPUT / AI-0",
+      "ja": "OUTPUT / AI-0",
+      "en": "OUTPUT / AI-0"
+    },
+    {
+      "key": "FORMING / 輪郭を編んでいます",
+      "ja": "FORMING / 輪郭を編んでいます",
+      "en": "FORMING / An identity takes shape"
+    },
+    {
+      "key": "CREATED / 新しいキャラクター",
+      "ja": "CREATED / 新しいキャラクター",
+      "en": "CREATED / Your new character"
+    },
+    {
+      "key": "INPUT / 声を待っています",
+      "ja": "INPUT / 声を待っています",
+      "en": "INPUT / Listening"
+    },
+    {
+      "key": "LINK / 声の記憶を受信",
+      "ja": "LINK / 声の記憶を受信",
+      "en": "LINK / Voice received"
+    },
+    {
+      "key": "SIGNAL / 待機中",
+      "ja": "SIGNAL / 待機中",
+      "en": "SIGNAL / Standby"
+    },
+    {
+      "key": "マイクが見つかりません。接続してからやり直してください。",
+      "ja": "マイクが見つかりません。接続してからやり直してください。",
+      "en": "No microphone found. Connect one and try again."
+    },
+    {
+      "key": "選択したマイクが見つかりません。",
+      "ja": "選択したマイクが見つかりません。",
+      "en": "The selected microphone could not be found."
+    },
+    {
+      "key": "マイクを開始できません。OSのマイク許可を確認してください。",
+      "ja": "マイクを開始できません。OSのマイク許可を確認してください。",
+      "en": "Could not start the microphone. Check microphone permissions."
+    },
+    {
+      "key": "マイクを開始できませんでした。",
+      "ja": "マイクを開始できませんでした。",
+      "en": "Could not start the microphone."
+    },
+    {
+      "key": "マイクが外れました。接続してやり直してください。",
+      "ja": "マイクが外れました。接続してやり直してください。",
+      "en": "Your microphone disconnected. Reconnect it and try again."
+    },
+    {
+      "key": "マイク入力を開始できませんでした。OSの設定を確認してください。",
+      "ja": "マイク入力を開始できませんでした。OSの設定を確認してください。",
+      "en": "Could not receive microphone input. Check your system settings."
+    },
+    {
+      "key": "GPT-Liveが要求を受け付けませんでした。",
+      "ja": "GPT-Liveが要求を受け付けませんでした。",
+      "en": "GPT-Live could not accept this request."
+    },
+    {
+      "key": "GPT-Liveに接続できませんでした。利用権限とPythonAPIの接続を確認してください。",
+      "ja": "GPT-Liveに接続できませんでした。利用権限とPythonAPIの接続を確認してください。",
+      "en": "Could not connect to GPT-Live. Check access and the PythonAPI connection."
+    },
+    {
+      "key": "会話を終了しました。好みや大切にすることを聞けなかったため、もう一度お試しください。",
+      "ja": "会話を終了しました。好みや大切にすることを聞けなかったため、もう一度お試しください。",
+      "en": "The conversation ended without enough information. Please try again."
+    },
+    {
+      "key": "live.remaining",
+      "ja": "残り {0}",
+      "en": "Remaining {0}"
+    },
+    {
+      "key": "live.welcome",
+      "ja": "> AI-0 / LIVE\n\nAI-0との会話から、新しいキャラクターへ。\n好きなことや、大切にしていることを聞かせてください。\n会話は最長2分。最後にAI-0がご案内します。",
+      "en": "> AI-0 / LIVE\n\nA conversation with AI-0. A new character.\nTell AI-0 what you enjoy and what matters to you.\nUp to two minutes. AI-0 will guide you at the end."
+    },
+    {
+      "key": "JSONをコピー",
+      "ja": "JSONをコピー",
+      "en": "Copy JSON"
+    },
+    {
+      "key": "中止する",
+      "ja": "中止する",
+      "en": "Cancel"
+    },
+    {
+      "key": "言い直す",
+      "ja": "言い直す",
+      "en": "Try again"
+    },
+    {
+      "key": "SYSTEM / AI-0",
+      "ja": "SYSTEM / AI-0",
+      "en": "SYSTEM / AI-0"
+    },
+    {
+      "key": "YOU / あなたの声",
+      "ja": "YOU / あなたの声",
+      "en": "YOU / Your voice"
+    }
+  ]
+}

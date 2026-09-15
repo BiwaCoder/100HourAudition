@@ -1,0 +1,11 @@
+var live=UnityEngine.Object.FindFirstObjectByType<HundredHour.LiveInterview.LiveInterviewController>();
+if(live.session.IsConnected)throw new System.Exception("Unexpected connection");
+if(System.IO.File.Exists(HundredHour.AuditionEntry.AuditionProfile.JsonPath))throw new System.Exception("Do not overwrite existing participant");
+var json="{\"characters\":[{\"name\":\"検証用参加者\",\"personality\":\"好奇心旺盛\",\"hobbies\":[\"星空観察\",\"散歩\"]}]}";
+var eventField=typeof(HundredHour.LiveInterview.LiveInterviewController).GetField("CharacterCreated",System.Reflection.BindingFlags.Instance|System.Reflection.BindingFlags.NonPublic);
+((System.Action<string>)eventField.GetValue(live)).Invoke(json);
+if(HundredHour.AuditionEntry.AuditionProfile.Name!="検証用参加者")throw new System.Exception("Save failed");
+UnityEngine.ScreenCapture.CaptureScreenshot("Docs/AuditionEntry/voice.png");
+System.IO.File.WriteAllText("Docs/AuditionEntry/verification.txt","PASS voice scene from menu; disconnected until user starts\nPASS generated JSON event persisted participant\n");
+UnityEngine.Object.FindFirstObjectByType<HundredHour.AuditionEntry.AuditionPortal>().Open("AuditionPortrait");
+return "PASS";

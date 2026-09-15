@@ -1,0 +1,12 @@
+PASS options open centrally
+PASS dialogue panel half-height (24% of screen)
+PASS prose spans full width
+PASS close button disables choice keyboard and pointer input
+PASS hidden choices cannot confirm
+PASS reopen preserves selected option
+PASS confirmation emits correct index and closes dialog
+PASS no options hides opener and popup
+PASS long choice list scrolls
+PASS outside click closes popup
+PASS real director flow: FirstChoice popup confirmation advances to FirstReview and presents the next choices.
+No Console errors during verification. Saves disabled; no AI requests. Play stopped after verification.

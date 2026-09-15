@@ -1,0 +1,34 @@
+Intro to Walking: True
+Button raycast 0: True
+Exclusive mode Cube: True
+Physics and portrait 0: True
+Move 0: True
+Stop 0: True
+Button raycast 1: True
+Exclusive mode Silhouette: True
+Physics and portrait 1: True
+Move 1: True
+Stop 1: True
+Button raycast 2: True
+Exclusive mode Wire: True
+Physics and portrait 2: True
+Move 2: True
+Stop 2: True
+Button raycast 3: True
+Exclusive mode SilhouetteAndWire: True
+Physics and portrait 3: True
+Move 3: True
+Stop 3: True
+Button raycast 4: True
+Exclusive mode StreetToon: True
+Physics and portrait 4: True
+Move 4: True
+Pose 4: True
+Stop 4: True
+Button raycast 5: True
+Exclusive mode StorybookToon: True
+Physics and portrait 5: True
+Move 5: True
+Pose 5: True
+Stop 5: True
+Wire temporal pixel change (frozen pose): True (194499 changed samples)

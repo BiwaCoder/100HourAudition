@@ -1,0 +1,872 @@
+PASS archetype gate
+PASS three-card hand
+PASS card playable smile
+PASS card playable smile
+PASS card playable smile
+PASS card playable touch
+PASS card playable touch
+PASS card playable touch
+PASS card playable wow
+PASS card playable wow
+PASS card playable wow
+PASS card playable lean
+PASS card playable lean
+PASS card playable lean
+PASS card playable nickname
+PASS card playable nickname
+PASS card playable nickname
+PASS card playable cheer
+PASS card playable cheer
+PASS card playable cheer
+PASS card playable sun_topic
+PASS card playable sun_topic
+PASS card playable sun_topic
+PASS card playable praise_topic
+PASS card playable praise_topic
+PASS card playable praise_topic
+PASS card playable sun_rare
+PASS card playable sun_rare
+PASS card playable sun_rare
+PASS card playable promise_rare
+PASS card playable promise_rare
+PASS card playable promise_rare
+PASS card playable spot_rare
+PASS card playable spot_rare
+PASS card playable spot_rare
+PASS card playable future_rare
+PASS card playable future_rare
+PASS card playable future_rare
+PASS card playable reveal
+PASS card playable reveal
+PASS card playable reveal
+PASS card playable listen_plan
+PASS card playable listen_plan
+PASS card playable listen_plan
+PASS card playable interrupt
+PASS card playable interrupt
+PASS card playable interrupt
+PASS card playable rumor
+PASS card playable rumor
+PASS card playable rumor
+PASS card playable repair
+PASS card playable repair
+PASS card playable repair
+PASS card playable secret
+PASS card playable secret
+PASS card playable secret
+PASS card playable question_topic
+PASS card playable question_topic
+PASS card playable question_topic
+PASS card playable bridge_topic
+PASS card playable bridge_topic
+PASS card playable bridge_topic
+PASS card playable checkmate
+PASS card playable checkmate
+PASS card playable checkmate
+PASS card playable honest_rare
+PASS card playable honest_rare
+PASS card playable honest_rare
+PASS card playable protect_rare
+PASS card playable protect_rare
+PASS card playable protect_rare
+PASS card playable secret_rare
+PASS card playable secret_rare
+PASS card playable secret_rare
+PASS card playable flower
+PASS card playable flower
+PASS card playable flower
+PASS card playable rain_sign
+PASS card playable rain_sign
+PASS card playable rain_sign
+PASS card playable place
+PASS card playable place
+PASS card playable place
+PASS card playable counter
+PASS card playable counter
+PASS card playable counter
+PASS card playable mystery
+PASS card playable mystery
+PASS card playable mystery
+PASS card playable weather_read
+PASS card playable weather_read
+PASS card playable weather_read
+PASS card playable garden_topic
+PASS card playable garden_topic
+PASS card playable garden_topic
+PASS card playable place_topic
+PASS card playable place_topic
+PASS card playable place_topic
+PASS card playable garden_rare
+PASS card playable garden_rare
+PASS card playable garden_rare
+PASS card playable storm_rare
+PASS card playable storm_rare
+PASS card playable storm_rare
+PASS card playable return_rare
+PASS card playable return_rare
+PASS card playable return_rare
+PASS card playable myth_rare
+PASS card playable myth_rare
+PASS card playable myth_rare
+PASS archetype gate
+PASS three-card hand
+PASS card playable smile
+PASS card playable smile
+PASS card playable smile
+PASS card playable touch
+PASS card playable touch
+PASS card playable touch
+PASS card playable wow
+PASS card playable wow
+PASS card playable wow
+PASS card playable lean
+PASS card playable lean
+PASS card playable lean
+PASS card playable nickname
+PASS card playable nickname
+PASS card playable nickname
+PASS card playable cheer
+PASS card playable cheer
+PASS card playable cheer
+PASS card playable sun_topic
+PASS card playable sun_topic
+PASS card playable sun_topic
+PASS card playable praise_topic
+PASS card playable praise_topic
+PASS card playable praise_topic
+PASS card playable sun_rare
+PASS card playable sun_rare
+PASS card playable sun_rare
+PASS card playable promise_rare
+PASS card playable promise_rare
+PASS card playable promise_rare
+PASS card playable spot_rare
+PASS card playable spot_rare
+PASS card playable spot_rare
+PASS card playable future_rare
+PASS card playable future_rare
+PASS card playable future_rare
+PASS card playable reveal
+PASS card playable reveal
+PASS card playable reveal
+PASS card playable listen_plan
+PASS card playable listen_plan
+PASS card playable listen_plan
+PASS card playable interrupt
+PASS card playable interrupt
+PASS card playable interrupt
+PASS card playable rumor
+PASS card playable rumor
+PASS card playable rumor
+PASS card playable repair
+PASS card playable repair
+PASS card playable repair
+PASS card playable secret
+PASS card playable secret
+PASS card playable secret
+PASS card playable question_topic
+PASS card playable question_topic
+PASS card playable question_topic
+PASS card playable bridge_topic
+PASS card playable bridge_topic
+PASS card playable bridge_topic
+PASS card playable checkmate
+PASS card playable checkmate
+PASS card playable checkmate
+PASS card playable honest_rare
+PASS card playable honest_rare
+PASS card playable honest_rare
+PASS card playable protect_rare
+PASS card playable protect_rare
+PASS card playable protect_rare
+PASS card playable secret_rare
+PASS card playable secret_rare
+PASS card playable secret_rare
+PASS card playable flower
+PASS card playable flower
+PASS card playable flower
+PASS card playable rain_sign
+PASS card playable rain_sign
+PASS card playable rain_sign
+PASS card playable place
+PASS card playable place
+PASS card playable place
+PASS card playable counter
+PASS card playable counter
+PASS card playable counter
+PASS card playable mystery
+PASS card playable mystery
+PASS card playable mystery
+PASS card playable weather_read
+PASS card playable weather_read
+PASS card playable weather_read
+PASS card playable garden_topic
+PASS card playable garden_topic
+PASS card playable garden_topic
+PASS card playable place_topic
+PASS card playable place_topic
+PASS card playable place_topic
+PASS card playable garden_rare
+PASS card playable garden_rare
+PASS card playable garden_rare
+PASS card playable storm_rare
+PASS card playable storm_rare
+PASS card playable storm_rare
+PASS card playable return_rare
+PASS card playable return_rare
+PASS card playable return_rare
+PASS card playable myth_rare
+PASS card playable myth_rare
+PASS card playable myth_rare
+PASS archetype gate
+PASS three-card hand
+PASS card playable smile
+PASS card playable smile
+PASS card playable smile
+PASS card playable touch
+PASS card playable touch
+PASS card playable touch
+PASS card playable wow
+PASS card playable wow
+PASS card playable wow
+PASS card playable lean
+PASS card playable lean
+PASS card playable lean
+PASS card playable nickname
+PASS card playable nickname
+PASS card playable nickname
+PASS card playable cheer
+PASS card playable cheer
+PASS card playable cheer
+PASS card playable sun_topic
+PASS card playable sun_topic
+PASS card playable sun_topic
+PASS card playable praise_topic
+PASS card playable praise_topic
+PASS card playable praise_topic
+PASS card playable sun_rare
+PASS card playable sun_rare
+PASS card playable sun_rare
+PASS card playable promise_rare
+PASS card playable promise_rare
+PASS card playable promise_rare
+PASS card playable spot_rare
+PASS card playable spot_rare
+PASS card playable spot_rare
+PASS card playable future_rare
+PASS card playable future_rare
+PASS card playable future_rare
+PASS card playable reveal
+PASS card playable reveal
+PASS card playable reveal
+PASS card playable listen_plan
+PASS card playable listen_plan
+PASS card playable listen_plan
+PASS card playable interrupt
+PASS card playable interrupt
+PASS card playable interrupt
+PASS card playable rumor
+PASS card playable rumor
+PASS card playable rumor
+PASS card playable repair
+PASS card playable repair
+PASS card playable repair
+PASS card playable secret
+PASS card playable secret
+PASS card playable secret
+PASS card playable question_topic
+PASS card playable question_topic
+PASS card playable question_topic
+PASS card playable bridge_topic
+PASS card playable bridge_topic
+PASS card playable bridge_topic
+PASS card playable checkmate
+PASS card playable checkmate
+PASS card playable checkmate
+PASS card playable honest_rare
+PASS card playable honest_rare
+PASS card playable honest_rare
+PASS card playable protect_rare
+PASS card playable protect_rare
+PASS card playable protect_rare
+PASS card playable secret_rare
+PASS card playable secret_rare
+PASS card playable secret_rare
+PASS card playable flower
+PASS card playable flower
+PASS card playable flower
+PASS card playable rain_sign
+PASS card playable rain_sign
+PASS card playable rain_sign
+PASS card playable place
+PASS card playable place
+PASS card playable place
+PASS card playable counter
+PASS card playable counter
+PASS card playable counter
+PASS card playable mystery
+PASS card playable mystery
+PASS card playable mystery
+PASS card playable weather_read
+PASS card playable weather_read
+PASS card playable weather_read
+PASS card playable garden_topic
+PASS card playable garden_topic
+PASS card playable garden_topic
+PASS card playable place_topic
+PASS card playable place_topic
+PASS card playable place_topic
+PASS card playable garden_rare
+PASS card playable garden_rare
+PASS card playable garden_rare
+PASS card playable storm_rare
+PASS card playable storm_rare
+PASS card playable storm_rare
+PASS card playable return_rare
+PASS card playable return_rare
+PASS card playable return_rare
+PASS card playable myth_rare
+PASS card playable myth_rare
+PASS card playable myth_rare
+PASS archetype gate
+PASS insufficient wisdom costs nothing
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 1
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 2
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 3
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 4
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 5
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 6
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 7
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 8
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 9
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 10
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 11
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 12
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 13
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 14
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 15
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 16
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 17
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 18
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 19
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 20
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 21
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 22
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 23
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 24
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 25
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 26
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 27
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 28
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 29
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 0 / 30
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 1
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 2
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 3
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 4
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 5
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 6
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 7
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 8
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 9
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 10
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 11
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 12
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 13
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 14
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 15
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 16
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 17
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 18
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 19
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 20
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 21
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 22
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 23
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 24
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 25
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 26
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 27
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 28
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 29
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 1 / 30
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 1
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 2
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 3
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 4
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 5
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 6
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 7
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 8
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 9
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 10
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 11
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 12
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 13
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 14
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 15
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 16
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 17
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 18
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 19
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 20
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 21
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 22
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 23
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 24
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 25
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 26
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 27
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 28
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 29
+PASS final rare and epilogue
+PASS archetype gate
+PASS stage rare offers
+PASS stage rare offers
+PASS stage rare offers
+PASS terminates 2 / 30
+PASS final rare and epilogue

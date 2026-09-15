@@ -1,0 +1,14 @@
+INTRO 0 joystick=False mover=False titleAlpha=1 captionActive=False captionAlpha=1 caption=海に抱かれた、白亜の邸宅。
+ここで、百時間の恋と駆け引きが幕を開ける。
+INTRO 1 joystick=False mover=False titleAlpha=0 captionActive=True captionAlpha=0.9174441 caption=海に抱かれた、白亜の邸宅。
+ここで、百時間の恋と駆け引きが幕を開ける。
+INTRO 2 joystick=False mover=False titleAlpha=0 captionActive=True captionAlpha=0.9110025 caption=噴水の音が響く中庭と、夕陽を映す大きな窓。
+この場所には、まだ誰も知らない物語が待っている。
+INTRO 3 joystick=False mover=False titleAlpha=0 captionActive=True captionAlpha=0.6866798 caption=覚悟と期待を胸に、ひまりは舞台へ。
+あなたの一歩から、このオーディションは動き出す。
+INTRO 4 joystick=False mover=False titleAlpha=0 captionActive=True captionAlpha=0.1758488 caption=準備はいい？　レッドカーペットの先へ進もう。
+AFTER INTRO Walking joystick=True camera=NatureFollowCamera
+ARRIVAL Encounter position=(0.00, 0.71, 10.46) joystick=False seen=True
+FINISHED Exploration joystick=True titleAlpha=0 captionActive=False captionAlpha=0.9673162 caption=いま、新たな物語が始まる。
+この出会いが、百時間の運命を変えていく。 error=
+NO RETRIGGER Exploration playing=False

@@ -1,0 +1,16 @@
+{
+  "units": "metres",
+  "model_objects": 2268,
+  "courtyard_m": [
+    20,
+    18
+  ],
+  "outer_m": [
+    40,
+    38
+  ],
+  "door_clear_width_m": 2.4,
+  "roof_separate": true,
+  "route": "Entrance -> south hall -> courtyard -> north lounge; side galleries connect six rooms.",
+  "scene_objects": 2281
+}

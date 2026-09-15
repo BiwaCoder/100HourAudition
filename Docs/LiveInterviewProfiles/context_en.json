@@ -1,0 +1,76 @@
+{
+  "success": true,
+  "character": {
+    "schema_version": "interview-character-v1",
+    "characters": [
+      {
+        "name": null,
+        "jobs": null,
+        "personality": null,
+        "self_awareness": null,
+        "communication_style": [
+          "concise",
+          "informative"
+        ],
+        "fashion_sense": {
+          "style": null,
+          "preferences": null
+        },
+        "conversation_points": [
+          "reading",
+          "mystery novels"
+        ],
+        "traits": [],
+        "hobbies": [
+          "reading"
+        ],
+        "emotional_expressions": [],
+        "example_lines": [
+          "Yes, especially mystery novels. I prefer to listen first when meeting new people."
+        ],
+        "appearance": {
+          "hair": null,
+          "eyes": null,
+          "skin": null,
+          "body": null
+        }
+      }
+    ],
+    "profile_quality": {
+      "status": "reviewed",
+      "evidence": [
+        {
+          "field": "communication_style",
+          "basis": "observed",
+          "quote": "Yes, especially mystery novels. I prefer to listen first when meeting new people.",
+          "explanation": "The user provides clear and concise information in their responses."
+        },
+        {
+          "field": "conversation_points",
+          "basis": "stated",
+          "quote": "Yes, especially mystery novels.",
+          "explanation": "The user brings up the topic of reading, specifically mystery novels."
+        },
+        {
+          "field": "hobbies",
+          "basis": "stated",
+          "quote": "Yes, especially mystery novels.",
+          "explanation": "The user explicitly mentions enjoying reading mystery novels."
+        },
+        {
+          "field": "example_lines",
+          "basis": "observed",
+          "quote": "Yes, especially mystery novels. I prefer to listen first when meeting new people.",
+          "explanation": "This is a direct quote showcasing the user's conversational style."
+        }
+      ],
+      "observations": [],
+      "limitations": [
+        "Limited information is available about the user's broader interests, personality, or preferences.",
+        "The inference about introversion is tentative and based on a single statement; more context would be needed for confirmation.",
+        "No information is available about the user's physical appearance, job, or fashion preferences."
+      ]
+    }
+  },
+  "error": null
+}

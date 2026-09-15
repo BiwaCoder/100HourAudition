@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "language": "ja",
+  "input": "PCM silence only; no user speech",
+  "first_audible_output_seconds": 2.24,
+  "opening_complete_seconds": 20.07,
+  "audio_bytes": 902400,
+  "transcript": "はじめまして、クモノだ。君にはこれからリアリティーショーに参加してもらう。それが可能かどうか確かめるのが、この審査だ。この先、異世界転生やSFみたいにデジタル空間へワープするんだ。まず、最近どんなことに夢中になっている?"
+}
